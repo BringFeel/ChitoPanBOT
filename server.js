@@ -16,14 +16,6 @@ os.cpuUsage(function(v){
 
 client.comandos = new Discord.Collection()
 
-let archivos = fs.readdirSync("./commands").filter((f) => f.endsWith(".js"))
-
-for(var archi of archivos) {
-  let comando = require("./commands/"+archi)
-  client.comandos.set(comando.nombre, comando)
-  console.log(comando.nombre+" Fue cargado correctamente")
-
-}
 
 var d = new Date();
 console.log(d.toLocaleTimeString());
