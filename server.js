@@ -6,6 +6,8 @@ const client = new Discord.Client();
 const fs = require("fs");
 var os = require('os');
 
+client.login(TOKEN);
+
 console.log(os.cpus());
 console.log(os.totalmem());
 console.log(os.freemem())
@@ -15,8 +17,6 @@ var os = require('os-utils');
 os.cpuUsage(function(v){
     console.log( 'CPU Usage (%): ' + v );
 });
-
-client.login(TOKEN);
 
 client.comandos = new Discord.Collection()
 
