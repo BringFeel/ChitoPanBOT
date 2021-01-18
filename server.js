@@ -230,4 +230,4 @@ client.on("message", message => {
 });
 
 
- bot.login(TOKEN);
+ client.login(TOKEN);
