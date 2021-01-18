@@ -52,6 +52,14 @@ client.on("message", (message) => {
     const avatarEmbed = require('discord.js-avatar');
     avatarEmbed(message, language = 'spanish');
   }
+  if (message.content.startsWith(prefix + 'play')) {
+        let song = await client.player.play(message.member.voice.channel, args.join(' '), {
+            duration: 'long' // This is optional
+        });
+        song = song.song;
+        message.channel.send(`Started playing ${song.name}.`);
+    }
+});
   if (message.content.startsWith(prefix +"help")){
     message.channel.send({embed: {
       color: 199057,
