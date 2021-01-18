@@ -24,7 +24,7 @@ console.log(d.toLocaleDateString());
 
 client.on("ready", () => {
   console.log(`Ya estoy on pa´ en el ${client.user.tag}!`);
-    client.user.setActivity("Ayuda, fran ya ni bola de da", { type: "PLAYING"})
+    client.user.setActivity("En mantenimiento...", { type: "PLAYING"})
 
 });
 
