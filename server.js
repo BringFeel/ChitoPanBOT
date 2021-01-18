@@ -1,3 +1,5 @@
+require('dotenv').config();
+const TOKEN = process.env.TOKEN;
 const Discord = require("discord.js");
 const { Client, MessageEmbed } = require('discord.js')
 const client = new Discord.Client();
@@ -227,4 +229,4 @@ client.on("message", message => {
 });
 
 
- client.login("Nzc5ODQxOTA3NDg0MjYyNDIx.X7maXw.FiGsVTXmQxcdIPXYShSuWoTgEVw");
+ bot.login(TOKEN);
