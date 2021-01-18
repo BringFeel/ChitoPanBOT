@@ -14,9 +14,6 @@ os.cpuUsage(function(v){
     console.log( 'CPU Usage (%): ' + v );
 });
 
-client.comandos = new Discord.Collection()
-
-}
 
 var d = new Date();
 console.log(d.toLocaleTimeString());
