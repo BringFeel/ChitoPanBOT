@@ -14,6 +14,16 @@ os.cpuUsage(function(v){
     console.log( 'CPU Usage (%): ' + v );
 });
 
+client.comandos = new Discord.Collection()
+
+let archivos = fs.readdirSync("./commands").filter((f) => f.endsWith(".js"))
+
+for(var archi of archivos) {
+  let comando = require("./commands/"+archi)
+  client.comandos.set(comando.nombre, comando)
+  console.log(comando.nombre+" Fue cargado correctamente")
+
+}
 
 var d = new Date();
 console.log(d.toLocaleTimeString());
@@ -31,6 +41,9 @@ client.on("message", (message) => {
   // Exit and stop if the prefix is not there or if user is a bot
   if (!message.content.startsWith(prefix) || message.author.bot) return;
  
+  if (message.content.startsWith(prefix + "100")) {
+    message.channel.send("https://www.cobel-motion.xyz/videos/cuanto-valen-los-helados-de-sien.mp4");
+  }
   if (message.content.startsWith(prefix + "up?")) {
     message.channel.send("Estoy agarrando señal carnal");
   }
@@ -39,9 +52,6 @@ client.on("message", (message) => {
   }
   if (message.content.startsWith(prefix + "calmese")){
     message.channel.send("https://www.cobel-motion.xyz/videos/Calmese-Boludo.mp4");
-  }
-  if (message.content.startsWith(prefix + "100")) {
-    message.channel.send("https://www.cobel-motion.xyz/videos/cuanto-valen-los-helados-de-sien.mp4");
   }
   if (message.content.startsWith(prefix + 'avatar')) {
     const avatarEmbed = require('discord.js-avatar');
