@@ -149,11 +149,6 @@ if (message.content.startsWith(prefix +"web")){
   }
 });
 }
-if(!message.content.startsWith(prefix)) {
-    nivelesFunc(message)
-    retrun;
-  }
-  
   let totalSeconds = (client.uptime / 1000);
   let days = Math.floor(totalSeconds / 86400);
   totalSeconds %=  86400;
@@ -162,8 +157,7 @@ if(!message.content.startsWith(prefix)) {
   let minutes = Math.floor(totalSeconds / 60);
   let seconds = Math.floor(totalSeconds % 60);
   let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
-}
- });
+
 if (message.content.startsWith(prefix +"ping")){
   message.channel.send({embed: {
     color: 042231,
