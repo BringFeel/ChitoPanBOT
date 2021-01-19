@@ -149,15 +149,15 @@ if (message.content.startsWith(prefix +"web")){
   }
 });
 }
-if (message.content.startsWith(prefix +"prueba")){
+if (message.content.startsWith(prefix +"ping")){
   message.channel.send({embed: {
     color: 522310,
     author: {
         icon_url: client.user.avatarURL
     },
-    title: "PING:",
+    title: "⚾__pong!__",
     url: "",
-    description: "⚾__pong!__",
+    description: "",
     fields: [{
         name: "Ping bot",
           value: `🏓**Ping Bot:** ${Date.now() - message.createdTimestamp}ms`
