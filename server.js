@@ -155,12 +155,12 @@ if (message.content.startsWith(prefix +"prueba")){
     author: {
         icon_url: client.user.avatarURL
     },
-    title: "PING DE FRAN-BOT",
+    title: "PING:",
     url: "",
-    description: "",
+    description: "⚾__pong!__",
     fields: [{
         name: "Ping bot",
-          value: `🏓**Bot:** ${Date.now() - message.createdTimestamp}ms`
+          value: `🏓**Ping Bot:** ${Date.now() - message.createdTimestamp}ms`
         },
         {
         name: "API discord",
@@ -197,24 +197,6 @@ if (message.content.startsWith(prefix +"prueba")){
     message.channel.send("📜**Comandos:** 14");
   }
  });
-
- client.on("message", (message) => {
-  if (message.content.startsWith("+ping")) {
-    message.channel.send("⚾__pong!__");
-  }
-});
-
- client.on('message', message => {
-  if (message.content === '+ping') {  
-    message.channel.send(`🏓**Bot:** ${Date.now() - message.createdTimestamp}ms`);
-  }
-});
-
-client.on('message', message => {
-  if (message.content === '+ping') {  
-    message.channel.send(`🌐**API:** -${Math.round(client.ws.ping)}ms`);
-  }
-});
 
  client.on('message', message => {
   if (message.content === '+stats') {  
