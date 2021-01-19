@@ -149,6 +149,28 @@ if (message.content.startsWith(prefix +"web")){
   }
 });
 }
+if (message.content.startsWith(prefix +"prueba")){
+  message.channel.send({embed: {
+    color: 522310,
+    author: {
+        icon_url: client.user.avatarURL
+    },
+    title: "PING DE FRAN-BOT",
+    url: "",
+    description: "https://www.cobel-motion.xyz/FranBOT.html",
+    fields: [{
+        name: "Ping bot",
+          value: `🏓**Bot:** ${Date.now() - message.createdTimestamp}ms`
+        }
+      ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: "https://cdn.discordapp.com/avatars/779841907484262421/353e218ba30c538fea8684b62aedd13b.webp?size=4096",
+      text: "Fran-BOT#4390"
+    }
+  }
+});
+}
 
 
   if(!message.content.startsWith(prefix)) {
