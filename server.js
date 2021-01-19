@@ -27,7 +27,7 @@ console.log(d.toLocaleDateString());
 
 client.on("ready", () => {
   console.log(`Ya estoy on pa´ en el ${client.user.tag}!`);
-    client.user.setActivity("No te entiendo una goma heroku", { type: "PLAYING"})
+    client.user.setActivity("+help | que onda pibe", { type: "PLAYING"})
 
 });
 
@@ -47,6 +47,9 @@ client.on("message", (message) => {
   }
   if (message.content.startsWith(prefix + "calmese")){
     message.channel.send("https://www.cobel-motion.xyz/videos/Calmese-Boludo.mp4");
+  }
+  if (message.content.startsWith(prefix + "eu")){
+    message.channel.send("eu");
   }
   if (message.content.startsWith(prefix + 'avatar')) {
     const avatarEmbed = require('discord.js-avatar');
