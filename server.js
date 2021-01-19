@@ -149,6 +149,20 @@ if (message.content.startsWith(prefix +"web")){
   }
 });
 }
+if(!message.content.startsWith(prefix)) {
+    nivelesFunc(message)
+    retrun;
+  }
+  
+  let totalSeconds = (client.uptime / 1000);
+  let days = Math.floor(totalSeconds / 86400);
+  totalSeconds %=  86400;
+  let hours = Math.floor(totalSeconds / 3600);
+  totalSeconds %=  3600;
+  let minutes = Math.floor(totalSeconds / 60);
+  let seconds = Math.floor(totalSeconds % 60);
+  let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
+}
 if (message.content.startsWith(prefix +"ping")){
   message.channel.send({embed: {
     color: 042231,
@@ -181,19 +195,6 @@ if (message.content.startsWith(prefix +"ping")){
 }
 
 
-  if(!message.content.startsWith(prefix)) {
-    nivelesFunc(message)
-    retrun;
-  }
-  
-  let totalSeconds = (client.uptime / 1000);
-  let days = Math.floor(totalSeconds / 86400);
-  totalSeconds %=  86400;
-  let hours = Math.floor(totalSeconds / 3600);
-  totalSeconds %=  3600;
-  let minutes = Math.floor(totalSeconds / 60);
-  let seconds = Math.floor(totalSeconds % 60);
-  let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
   if (message.content.startsWith(prefix + "stats")) {
     message.channel.send(`⏱**TIEMPO ENCENDIDO:** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`);
   }
