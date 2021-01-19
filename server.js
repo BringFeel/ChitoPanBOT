@@ -164,7 +164,11 @@ if (message.content.startsWith(prefix +"ping")){
         },
         {
         name: "API discord",
-        value: `🌐**Ping API:** -${Math.round(client.ws.ping)}ms`,
+        value: `🌐**Ping API:** ${Math.round(client.ws.ping)}ms`,
+        },
+        {
+        name: "Uptime bot",
+        value: `⏱**Uptime** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`,
         }
       ],
     timestamp: new Date(),
@@ -193,22 +197,6 @@ if (message.content.startsWith(prefix +"ping")){
   if (message.content.startsWith(prefix + "stats")) {
     message.channel.send(`⏱**TIEMPO ENCENDIDO:** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`);
   }
-  if (message.content.startsWith(prefix + "stats")) {
-    message.channel.send("📜**Comandos:** 14");
-  }
- });
-
- client.on('message', message => {
-  if (message.content === '+stats') {  
-    message.channel.send(`🏓**Ping Bot:** ${Date.now() - message.createdTimestamp}ms`);
-  }
-});
-
-client.on('message', message => {
-  if (message.content === '+stats') {  
-    message.channel.send(`🌐**Ping API:** -${Math.round(client.ws.ping)}ms`);
-  }
-});
 
 client.on('message', message => {
   if (message.content === 'puto') {  
