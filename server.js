@@ -63,18 +63,14 @@ client.on("message", (message) => {
       },
       title: "Comandos",
       url: "https://www.cobel-motion.xyz/FranBOT.html",
-      description: "Comandos disponibles. | 14 en total",
+      description: "Comandos disponibles. | 13 en total",
       fields: [{
           name: "+help",
           value: "Lista de los comandos disponibles."
         },
         {
-          name: "+stats",
-          value: "Estadisticas generales del bot."
-        },
-        {
           name: "+ping",
-          value: "Ping del bot y la api."
+          value: "Ping del bot y la api, tiempo online."
         },
         {
           name: "+up?",
@@ -189,14 +185,7 @@ if (message.content.startsWith(prefix +"ping")){
 });
 }
 
-
-  if (message.content.startsWith(prefix + "stats")) {
-    message.channel.send(`⏱**TIEMPO ENCENDIDO:** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`);
-  }
-  });
-
-client.on('message', message => {
-  if (message.content === 'puto') {  
+  if (message.content.startsWith(prefix + "puto")) { 
     message.channel.send(`te dicen`);
   }
 });
