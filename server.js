@@ -157,10 +157,14 @@ if (message.content.startsWith(prefix +"prueba")){
     },
     title: "PING DE FRAN-BOT",
     url: "",
-    description: "https://www.cobel-motion.xyz/FranBOT.html",
+    description: "",
     fields: [{
         name: "Ping bot",
           value: `🏓**Bot:** ${Date.now() - message.createdTimestamp}ms`
+        },
+        {
+        name: "API discord",
+        value: `🌐**Ping API:** -${Math.round(client.ws.ping)}ms`,
         }
       ],
     timestamp: new Date(),
