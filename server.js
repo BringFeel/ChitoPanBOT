@@ -163,6 +163,7 @@ if(!message.content.startsWith(prefix)) {
   let seconds = Math.floor(totalSeconds % 60);
   let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
 }
+ });
 if (message.content.startsWith(prefix +"ping")){
   message.channel.send({embed: {
     color: 042231,
