@@ -176,8 +176,8 @@ if (message.content.startsWith(prefix +"ping")){
         value: `🌐**Ping API:** ${Math.round(client.ws.ping)}ms`,
         },
         {
-        name: "Uptime bot",
-        value: `⏱**Uptime** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`,
+        name: "Bot online",
+        value: `⏱**Tiempo online:** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`,
         }
       ],
     timestamp: new Date(),
