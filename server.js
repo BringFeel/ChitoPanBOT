@@ -151,7 +151,7 @@ if (message.content.startsWith(prefix +"web")){
 }
 if (message.content.startsWith(prefix +"ping")){
   message.channel.send({embed: {
-    color: 522310,
+    color: 042231,
     author: {
         icon_url: client.user.avatarURL
     },
@@ -197,6 +197,7 @@ if (message.content.startsWith(prefix +"ping")){
   if (message.content.startsWith(prefix + "stats")) {
     message.channel.send(`⏱**TIEMPO ENCENDIDO:** ${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`);
   }
+  });
 
 client.on('message', message => {
   if (message.content === 'puto') {  
