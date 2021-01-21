@@ -49,7 +49,7 @@ client.on("message", (message) => {
     message.channel.send("https://www.cobel-motion.xyz/videos/Calmese-Boludo.mp4");
   }
   if (message.content.startsWith(prefix + "eu")){
-    message.channel.send("https://cdn.discordapp.com/attachments/703776274652332042/801671022838808596/2021-01-21_01-10-14.mp4");
+    message.channel.send("eu");
   }
   if (message.content.startsWith(prefix + 'avatar')) {
     const avatarEmbed = require('discord.js-avatar');
