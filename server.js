@@ -185,7 +185,7 @@ if (message.content.startsWith(prefix +"ping")){
 });
 }
 
-  if (message.content.startsWith("puto")) { 
+  if (message.content.startsWith(prefix + "puto")) { 
     message.channel.send(`te dicen`);
   }
 });
