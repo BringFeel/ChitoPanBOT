@@ -45,6 +45,9 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "invite")){
     message.channel.send("https://discord.com/oauth2/authorize?client_id=779841907484262421&scope=bot&permissions=0");
   }
+  if (message.content.startsWith(prefix + "bastachicos")){
+    message.channel.send("https://cdn.discordapp.com/attachments/726437915197964338/802303123158597632/basta-chicos.jpg");
+  }
   if (message.content.startsWith(prefix + "calmese")){
     message.channel.send("https://www.cobel-motion.xyz/videos/Calmese-Boludo.mp4");
   }
