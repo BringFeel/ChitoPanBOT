@@ -1,6 +1,6 @@
 module.exports = {
     name: 'eu',
-    description: 'Tells the bot to reply with \"Pong!\"',
+    description: 'eu pibe',
     execute(msg, args) {
         msg.channel.send("eu");
     }
