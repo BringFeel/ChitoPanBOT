@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 module.exports = {
   name: 'play',
   description: 'Reproduce una cancioón de YouTube',
