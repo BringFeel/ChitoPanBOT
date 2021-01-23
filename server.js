@@ -38,7 +38,7 @@ client.on("message", (msg) => {
 
   try {
     console.info(`${msg.author.tag} issued command "${msg.content}" on guild "${msg.guild.name}"`);
-    bot.commands.get(command).execute(msg, args);
+    client.commands.get(command).execute(msg, args);
   } catch (error) {
     console.error(error);
     msg.reply('hubo un error al ejecutar ese comando.');
