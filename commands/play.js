@@ -78,7 +78,7 @@ async function executePlay(msg, serverQueue) {
 
   if (!serverQueue) {
     const queueContruct = {
-      textChannel: message.channel,
+      textChannel: msg.channel,
       voiceChannel: voiceChannel,
       connection: null,
       songs: [],
