@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 module.exports = {
     name: 'help',
     description: 'Lista de los comandos disponibles.',
