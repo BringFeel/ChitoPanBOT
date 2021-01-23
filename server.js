@@ -25,7 +25,7 @@ console.log(d.toLocaleDateString());
 client.on("ready", () => {
   console.log(`Ya estoy on pa´ en el ${client.user.tag}!`);
   client.user.setActivity("+help | que onda pibe", { type: "LISTENING" })
-  bot.guilds.cache.each(guild => console.info(`Presente en el servidor "${guild.name}"`));
+  client.guilds.cache.each(guild => console.info(`Presente en el servidor "${guild.name}"`));
 });
 
 client.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
