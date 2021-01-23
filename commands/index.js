@@ -12,8 +12,6 @@ module.exports = {
     Ping: require('./ping.js'),
     Play: require('./play.js'),
     Puto: require('./puto.js'),
-    Skip: require('./skip.js'),
-    Stop: require('./stop.js'),
     Up: require('./up.js'),
     Web: require('./web.js'),
     P: require('./p.js'),
