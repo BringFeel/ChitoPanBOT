@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = {
   name: 'play',
-  description: 'Reproduce una cancioón de YouTube',
+  description: 'Reproduce una canción de YouTube',
   execute(msg, args) {
     if (args.length) {
       executePlay(msg, queue.get(msg.guild.id));
