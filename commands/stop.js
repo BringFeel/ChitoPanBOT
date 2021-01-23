@@ -5,8 +5,8 @@ module.exports = {
     description: 'Detiene una canción',
     execute(msg, args) {
         const serverQueue = queue.get(msg.guild.id);
-        if (!message.member.voice.channel)
-            return message.channel.send(
+        if (!msg.member.voice.channel)
+            return msg.channel.send(
                 "Tienes que estar en un canal de voz para detener la música!"
             );
 
