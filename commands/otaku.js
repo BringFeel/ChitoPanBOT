@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 module.exports = {
     name: 'otaku',
     description: 'Porcentaje aleatorio de Otaku',
