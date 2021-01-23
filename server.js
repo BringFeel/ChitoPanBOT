@@ -32,7 +32,7 @@ client.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
 
 client.on("message", (msg) => {
   let args = msg.content.split(/ +/);
-  let command = args.shift().toLowerCase().substring(bot.prefix.length);
+  let command = args.shift().toLowerCase().substring(client.prefix.length);
 
   if (!msg.content.startsWith(prefix) || !client.commands.has(command) || msg.author.bot) return;
 
