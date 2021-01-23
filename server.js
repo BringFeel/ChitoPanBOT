@@ -15,14 +15,6 @@ Object.keys(botCommands).map(key => {
   client.commands.set(botCommands[key].name, botCommands[key]);
 });
 
-console.log(os.cpus());
-console.log(os.totalmem());
-console.log(os.freemem())
-
-os.cpuUsage(function (v) {
-  console.log('CPU Usage (%): ' + v);
-});
-
 client.comandos = new Discord.Collection()
 
 var d = new Date();
