@@ -14,7 +14,7 @@ module.exports = {
         .setFooter('Fran-BOT#4390', 'https://cdn.discordapp.com/avatars/779841907484262421/353e218ba30c538fea8684b62aedd13b.webp?size=4096')
         .setTimestamp(new Date());
         for (let i = 0; i < commands.length; i++) {
-            embed.addField(commands[i], bot.commands.get(commands[i]).description);
+            embed.addField(commands[i], client.commands.get(commands[i]).description);
         }
         msg.channel.send(embed);
     }
