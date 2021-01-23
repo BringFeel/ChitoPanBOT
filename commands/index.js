@@ -16,5 +16,4 @@ module.exports = {
     Puto: require('./puto.js'),
     Up: require('./up.js'),
     Web: require('./web.js'),
-    P: require('./p.js'),
 };
