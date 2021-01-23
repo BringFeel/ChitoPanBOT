@@ -29,11 +29,11 @@ module.exports = {
 };
 
 async function executePlay(message, serverQueue) {
-  const args = message.content.split(" ");
+  const args = msg.content.split(" ");
 
-  const voiceChannel = message.member.voice.channel;
+  const voiceChannel = msg.member.voice.channel;
   if (!voiceChannel)
-    return message.channel.send({
+    return msg.channel.send({
       embed: {
         color: 16711680,
         author: {
@@ -52,7 +52,7 @@ async function executePlay(message, serverQueue) {
 
   const permissions = voiceChannel.permissionsFor(message.client.user);
   if (!permissions.has("CONNECT") || !permissions.has("SPEAK")) {
-    return message.channel.send({
+    return msg.channel.send({
       embed: {
         color: 16711680,
         author: {
