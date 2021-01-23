@@ -135,6 +135,7 @@ function play(guild, song) {
     message.channel.send("Ingresa un comando valido!");
   }
 });
+}
   if (!song) {
     serverQueue.voiceChannel.leave();
     queue.delete(guild.id);
