@@ -125,17 +125,6 @@ function play(guild, song) {
     return;
   }
   const serverQueue = queue.get(guild.id);
-  if (message.content.startsWith(`${prefix}skip`)) {
-    skip(message, serverQueue);
-    return;
-  } else if (message.content.startsWith(`${prefix}stop`)) {
-    stop(message, serverQueue);
-    return;
-  } else {
-    message.channel.send("Ingresa un comando valido!");
-  }
-});
-}
   if (!song) {
     serverQueue.voiceChannel.leave();
     queue.delete(guild.id);
