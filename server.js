@@ -36,7 +36,7 @@ client.on("ready", () => {
   bot.guilds.cache.each(guild => console.info(`Presente en el servidor "${guild.name}"`));
 });
 
-bot.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
+client.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
 
 client.on("message", (msg) => {
   let args = msg.content.split(/ +/);
