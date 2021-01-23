@@ -12,7 +12,7 @@ const botCommands = require('./commands');
 const prefix = "+";
 
 Object.keys(botCommands).map(key => {
-  bot.commands.set(botCommands[key].name, botCommands[key]);
+  client.commands.set(botCommands[key].name, botCommands[key]);
 });
 
 console.log(os.cpus());
