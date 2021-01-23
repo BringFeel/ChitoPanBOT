@@ -11,6 +11,8 @@ module.exports = {
     Otaku: require('./otaku.js'),
     Ping: require('./ping.js'),
     Play: require('./play.js'),
+    Skip: require('./skip.js'),
+    Stop: require('./stop.js'),
     Puto: require('./puto.js'),
     Up: require('./up.js'),
     Web: require('./web.js'),
