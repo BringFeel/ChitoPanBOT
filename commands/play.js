@@ -5,7 +5,7 @@ module.exports = {
   description: 'Reproduce una cancioón de YouTube',
   execute(msg, args) {
     if (args.length) {
-      executePlay(msg, queue.get(message.guild.id));
+      executePlay(msg, queue.get(msg.guild.id));
       return;
     } else {
       return msg.channel.send({
@@ -28,7 +28,7 @@ module.exports = {
   }
 };
 
-async function executePlay(message, serverQueue) {
+async function executePlay(msg, serverQueue) {
   const args = msg.content.split(" ");
 
   const voiceChannel = msg.member.voice.channel;
@@ -50,7 +50,7 @@ async function executePlay(message, serverQueue) {
       }
     });
 
-  const permissions = voiceChannel.permissionsFor(message.client.user);
+  const permissions = voiceChannel.permissionsFor(msg.client.user);
   if (!permissions.has("CONNECT") || !permissions.has("SPEAK")) {
     return msg.channel.send({
       embed: {
@@ -86,22 +86,22 @@ async function executePlay(message, serverQueue) {
       playing: true
     };
 
-    queue.set(message.guild.id, queueContruct);
+    queue.set(msg.guild.id, queueContruct);
 
     queueContruct.songs.push(song);
 
     try {
       var connection = await voiceChannel.join();
       queueContruct.connection = connection;
-      play(message.guild, queueContruct.songs[0]);
+      play(msg.guild, queueContruct.songs[0]);
     } catch (err) {
       console.log(err);
-      queue.delete(message.guild.id);
-      return message.channel.send(err);
+      queue.delete(msg.guild.id);
+      return msg.channel.send(err);
     }
   } else {
     serverQueue.songs.push(song);
-    return message.channel.send({
+    return msg.channel.send({
       embed: {
         color: 522310,
         author: {
