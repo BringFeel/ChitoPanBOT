@@ -34,7 +34,7 @@ client.on("message", (msg) => {
   let args = msg.content.split(/ +/);
   let command = args.shift().toLowerCase().substring(bot.prefix.length);
 
-  if (!msg.content.startsWith(prefix) || !bot.commands.has(command) || msg.author.bot) return;
+  if (!msg.content.startsWith(prefix) || !client.commands.has(command) || msg.author.bot) return;
 
   try {
     console.info(`${msg.author.tag} issued command "${msg.content}" on guild "${msg.guild.name}"`);
