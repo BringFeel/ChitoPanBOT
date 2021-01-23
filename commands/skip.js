@@ -4,7 +4,7 @@ module.exports = {
   name: 'skip',
   description: 'Salta una canción',
   execute(msg, args) {
-    const serverQueue = queue.get(message.guild.id);
+    const serverQueue = queue.get(msg.guild.id);
     if (!msg.member.voice.channel)
       return msg.channel.send(
         "Tienes que estar en un canal de voz para saltar la música!"
