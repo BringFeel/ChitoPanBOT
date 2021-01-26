@@ -1,7 +1,7 @@
 module.exports = {
     name: 'eu',
-    description: 'Bolam simp',
+    description: 'eu',
     execute(msg, args) {
-        msg.channel.send("eu");
+        msg.channel.send("Bolam simp");
     }
 };
