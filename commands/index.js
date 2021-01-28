@@ -15,5 +15,6 @@ module.exports = {
     Stop: require('./stop.js'),
     Puto: require('./puto.js'),
     Up: require('./up.js'),
+    Cague: require('./cague.js'),
     Web: require('./web.js')
 };
