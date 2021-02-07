@@ -16,6 +16,6 @@ module.exports = {
     Puto: require('./puto.js'),
     Up: require('./up.js'),
     Cague: require('./cague.js'),
-    Boda: require('./web.js'),
-    Web: require('./boda.js')
+    Boda: require('./boda.js'),
+    Web: require('./web.js')
 };
