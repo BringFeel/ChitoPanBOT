@@ -17,5 +17,5 @@ module.exports = {
     Up: require('./up.js'),
     Cague: require('./cague.js'),
     Boda: require('./boda.js'),
-    Web: require('./web.js')
+    Web: require('./web.js'),
 };
