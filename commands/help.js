@@ -5,7 +5,7 @@ module.exports = {
     description: 'Lista de los comandos disponibles.',
     execute(msg, args) {
         const commands = ['100', 'avatar', 'bastachicos', 'calmese', 'eu', 'furry',
-        'gay', 'help', 'invite', 'otaku', 'ping', 'puto', 'up', 'web', "boda"];
+        'gay', 'help', 'invite', 'otaku', 'ping', 'puto', 'up', "boda"];
         const embed = new Discord.MessageEmbed()
         .setTitle('Comandos')
         .setColor('#199057')
