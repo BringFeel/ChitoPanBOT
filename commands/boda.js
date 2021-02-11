@@ -5,7 +5,7 @@ module.exports = {
     description: 'boda',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#FF0202').setImage('https://cdn.discordapp.com/attachments/726437915197964338/804416882387976252/cague.gif').setTimestamp();
+        embed.setColor('#FF0202').setTitle("Boda de Fran y Light").setAuthor(message.author.username, message.author.avatarURL).setImage('https://cdn.discordapp.com/attachments/776612505093931098/809159523871752192/2021-02-10_17.29.58.png').setTimestamp();
         msg.channel.send(embed);
     }
 };
