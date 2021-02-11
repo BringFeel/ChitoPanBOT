@@ -24,7 +24,6 @@
     "python": "0.0.4",
     "pango": "^0.0.3",
     "systeminformation": "^4.34.7",
-    "xmlhttprequest": "^1.8.0",
-    "ytdl-core": "^4.4.4"
+    "xmlhttprequest": "^1.8.0"
   }
 }
