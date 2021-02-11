@@ -24,7 +24,6 @@
     "opusscript": "0.0.7",
     "os-utils": "0.0.14",
     "python": "0.0.4",
-    "cairo": "10.4.12",
     "pango": "^0.0.3",
     "systeminformation": "^4.34.7",
     "xmlhttprequest": "^1.8.0",
