@@ -5,7 +5,6 @@ const { Client, MessageEmbed } = require('discord.js');
 client = new Discord.Client();
 client.commands = new Discord.Collection();
 queue = new Map();
-ytdl = require("ytdl-core");
 fs = require("fs");
 const os = require('os');
 const botCommands = require('./commands');
