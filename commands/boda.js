@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'boda',
-    description: 'boda de fran y light OwO',
+    name: 'cs',
+    description: 'Info Del Server de CS1.6',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#FF0202').addField("Boda de Fran y Light","La boda se va a hacer el 14/02/2021").addField("Server:", "CobelMotion","Versión:", true).setFooter("FranBOT#4390").setImage('https://cdn.discordapp.com/attachments/776612505093931098/809159523871752192/2021-02-10_17.29.58.png').setTimestamp();
+        embed.setColor('#FF0202').addField("Server de CS1.6","Steam y No Steam").addField("IP:", "45.235.98.234:27050", true).setFooter("FranBOT#4390").setTimestamp();
         msg.channel.send(embed);
     }
 };
