@@ -13,5 +13,5 @@ module.exports = {
     Puto: require('./puto.js'),
     Up: require('./up.js'),
     Cague: require('./cague.js'),
-    Boda: require('./cs.js')
+    Cs: require('./cs.js')
 };
