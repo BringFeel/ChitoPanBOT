@@ -14,5 +14,6 @@ module.exports = {
     Up: require('./up.js'),
     Cague: require('./cague.js'),
     Cs: require('./cs.js'),
-    Callao: require('./callao.js')
+    Callao: require('./callao.js'),
+    Bi: require('./bi.js')
 };
