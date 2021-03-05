@@ -19,5 +19,6 @@ module.exports = {
     Eta: require('./eta.js'),
     Ey: require('./ey.js'),
     Siri: require('./siri.js'),
-    Wachin: require('./wachin')
+    Wachin: require('./wachin.js'),
+    Ban: require('./ban.js')  
 };
