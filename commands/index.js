@@ -21,6 +21,6 @@ module.exports = {
     Siri: require('./siri.js'),
     Wachin: require('./wachin.js'),
     Ban: require('./ban.js'),
-    Nomerssirve: require('./nomerssirve.js'),
-    merssirve: require('./merssirve.js')
+    Nomessirve: require('./nomessirve.js'),
+    messirve: require('./messirve.js')
 };
