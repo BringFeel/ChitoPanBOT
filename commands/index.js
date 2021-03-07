@@ -20,5 +20,7 @@ module.exports = {
     Ey: require('./ey.js'),
     Siri: require('./siri.js'),
     Wachin: require('./wachin.js'),
-    Ban: require('./ban.js')  
+    Ban: require('./ban.js'),
+    Nomerssirve: require('./nomerssirve.js'),
+    merssirve: require('./merssirve.js')
 };
