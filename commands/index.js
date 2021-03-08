@@ -22,5 +22,6 @@ module.exports = {
     Wachin: require('./wachin.js'),
     Ban: require('./ban.js'),
     Nomessirve: require('./nomessirve.js'),
-    messirve: require('./messirve.js')
+    messirve: require('./messirve.js'),
+    Clown: require('./clown.js')
 };
