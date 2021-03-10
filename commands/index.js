@@ -23,5 +23,6 @@ module.exports = {
     Ban: require('./ban.js'),
     Nomessirve: require('./nomessirve.js'),
     messirve: require('./messirve.js'),
-    Clown: require('./clown.js')
+    Clown: require('./clown.js'),
+    Poc: require('./poc.js')
 };
