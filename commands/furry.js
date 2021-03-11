@@ -9,7 +9,7 @@ module.exports = {
             number = 512;
         }
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#002D56').setTitle(`Furry`).setDescription(`${number}%`);
+        embed.setColor('#002D56').setTitle(`Furry`).addField(msg.author.username, `${number}%`, true);
         msg.channel.send(embed);
     }
 };
