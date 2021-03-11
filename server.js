@@ -23,7 +23,7 @@ console.log(d.toLocaleDateString());
 
 client.on("ready", () => {
   console.log(`Ya estoy on pa´ en el ${client.user.tag}!`);
-  client.user.setActivity("+help | Fran + Light = Pareja Perfecta", { type: "PLAYING" })
+  client.user.setActivity("+help | +invite", { type: "PLAYING" })
   client.guilds.cache.each(guild => console.info(`Presente en el servidor "${guild.name}"`));
 });
 
