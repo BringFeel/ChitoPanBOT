@@ -11,8 +11,7 @@ module.exports = {
         msg.channel.send(`${msg.author.toString()}`);
         const embed = new Discord.MessageEmbed();
         embed.setColor('#9C4E97').setTitle(`Bisexual`)
-            .setAuthor(msg.author.username, msg.author.avatarURL)
-            .setDescription(`${number}%`);
+            .addField(msg.author.username, `${number}%`, true);
         msg.channel.send(embed);
     }
 };
