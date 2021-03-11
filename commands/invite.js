@@ -1,7 +1,13 @@
+const Discord = require('discord.js');
+
 module.exports = {
     name: 'invite',
     description: 'Link de invitación del bot',
     execute(msg, args) {
-        msg.channel.send("https://discord.com/oauth2/authorize?client_id=779841907484262421&scope=bot&permissions=0");
+        const embed = new Discord.MessageEmbed();
+        embed.setColor('#FF0202').setTitle('FranBOT Invite:')
+	    .setURL('https://franbotinvite.cobel-motion.xyz/')
+	    .setDescription('https://franbotinvite.cobel-motion.xyz/').setTimestamp();
+        msg.channel.send(embed);
     }
 };
