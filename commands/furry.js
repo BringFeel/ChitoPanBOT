@@ -9,7 +9,7 @@ module.exports = {
             number = 512;
         }
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#27FF00').setTitle(`${number}% furry`);
+        embed.setColor('#002D56').setTitle(`${number}% furry`);
         msg.channel.send(embed);
     }
 };
