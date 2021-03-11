@@ -9,7 +9,7 @@ module.exports = {
             number = 325619;
         }
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#F99621').setTitle(`${number}% gay`);
+        embed.setColor('#000000').setTitle(`${number}% gay`);
         msg.channel.send(embed);
     }
 };
