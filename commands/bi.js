@@ -8,7 +8,7 @@ module.exports = {
         if (number == 101) {
             number = 325619;
         }
-        msg.channel.send(`@${msg.author.tag}`);
+        msg.channel.send(`${msg.author.toString()}`);
         const embed = new Discord.MessageEmbed();
         embed.setColor('#9C4E97').setTitle(`Bisexual`).setDescription(`${number}%`);
         msg.channel.send(embed);
