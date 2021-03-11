@@ -9,7 +9,7 @@ module.exports = {
             number = 256;
         }
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#27FF00').setTitle(`${number}% otaku`);
+        embed.setColor('#FC5857').setTitle(`${number}% otaku`);
         msg.channel.send(embed);
     }
 };
