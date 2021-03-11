@@ -9,7 +9,7 @@ module.exports = {
             number = 256;
         }
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#000000').setTitle(`Otaku`).setDescription(`${number}%`);
+        embed.setColor('#000000').setTitle(`Otaku`).addField(msg.author.username, `${number}%`, true);
         msg.channel.send(embed);
     }
 };
