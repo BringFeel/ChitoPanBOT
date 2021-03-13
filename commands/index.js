@@ -25,5 +25,6 @@ module.exports = {
     messirve: require('./messirve.js'),
     Clown: require('./clown.js'), 
     Poc: require('./poc.js'),
-    Vinonico: require('./vinonico.js')
+    Vinonico: require('./vinonico.js'),
+    Xxx: require('./xxx.js')
 };
