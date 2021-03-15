@@ -26,5 +26,6 @@ module.exports = {
     Clown: require('./clown.js'), 
     Poc: require('./poc.js'),
     Vinonico: require('./vinonico.js'),
-    Xxx: require('./xxx.js')
+    Xxx: require('./xxx.js'),
+    Buendia: require('./buendia.js')
 };
