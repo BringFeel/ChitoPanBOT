@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'help2',
+    name: 'help3',
     description: 'Lista de los comandos disponibles.',
     execute(msg, args) {
         const commands = ["eta", "ey", "siri", "messirve", "nomessirve", "clown", "poc", "vinonico", "buendia"];
