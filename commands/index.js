@@ -9,6 +9,7 @@ module.exports = {
     Help: require('./help.js'),
     Help2: require('./help2.js'),
     Help3: require('./help3.js'),
+    Help4: require('./help4.js'),
     Invite: require('./invite.js'),
     Otaku: require('./otaku.js'),
     Ping: require('./ping.js'),
@@ -30,5 +31,6 @@ module.exports = {
     Vinonico: require('./vinonico.js'),
     Xxx: require('./xxx.js'),
     Buendia: require('./buendia.js'),
-    Bolam: require('./bolam.js')
+    Bolam: require('./bolam.js'),
+    Jueves: require('./jueves.js')
 };
