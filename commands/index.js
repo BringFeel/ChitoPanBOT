@@ -7,6 +7,8 @@ module.exports = {
     Furry: require('./furry.js'),
     Gay: require('./gay.js'),
     Help: require('./help.js'),
+    Help2: require('./help2.js'),
+    Help3: require('./help3.js'),
     Invite: require('./invite.js'),
     Otaku: require('./otaku.js'),
     Ping: require('./ping.js'),
