@@ -32,5 +32,8 @@ module.exports = {
     Xxx: require('./xxx.js'),
     Buendia: require('./buendia.js'),
     Bolam: require('./bolam.js'),
-    Jueves: require('./jueves.js')
+    Jueves: require('./jueves.js'),
+    Dato: require('./dato.js'),
+    Bomdia: require('./bomdia.js'),
+    Bolamad: require('./bolamad.js')
 };
