@@ -35,5 +35,6 @@ module.exports = {
     Jueves: require('./jueves.js'),
     Dato: require('./dato.js'),
     Bomdia: require('./bomdia.js'),
-    Bolamad: require('./bolamad.js')
+    Bolamad: require('./bolamad.js'),
+    Whoping: require('./whoping.js')
 };
