@@ -5,9 +5,9 @@ module.exports = {
     description: 'Link de invitación del bot',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#5965FF').setTitle('FranBOT Invite:')
-	    .setURL('https://franbotinvite.cobel-motion.xyz/')
-	    .setDescription('https://franbotinvite.cobel-motion.xyz/').setTimestamp();
+        embed.setColor('#5965FF').setTitle('ChitoPanBOT Invite:')
+	    .setURL('https://chitopanbotinvite.cobel-motion.xyz/')
+	    .setDescription('https://chitopanbotinvite.cobel-motion.xyz/').setTimestamp();
         msg.channel.send(embed);
     }
 };
