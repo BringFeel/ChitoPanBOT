@@ -4,7 +4,7 @@ module.exports = {
     name: 'help2',
     description: 'Lista de los comandos disponibles.',
     execute(msg, args) {
-        const commands = ['invite', 'otaku', 'ping', 'puto', 'up', "cs", "callao", "bi"];
+        const commands = ['invite', 'otaku', 'stats', 'puto', 'up', "cs", "callao", "bi"];
         const embed = new Discord.MessageEmbed()
         .setTitle('Comandos | 2/4')
         .setColor('#199057')
