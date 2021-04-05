@@ -6,7 +6,7 @@ module.exports = {
     description: 'Estadisticas repiolas',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#FF0202').setTitle(`Cague`)
+        embed.setColor('#FF0202').setTitle(`Estadisticas`)
         .addField(`:desktop: System`, `${os.platform()}`, true)
         .addField(`:gear: Arquitectura`, `${os.arch()}`, true)
         .addField(`:rocket:  CPU`, `${os.cpus().map(i => `${i.model}`)[0]}`, true)
