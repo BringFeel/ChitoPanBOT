@@ -12,7 +12,6 @@ module.exports = {
     Help4: require('./help4.js'),
     Invite: require('./invite.js'),
     Otaku: require('./otaku.js'),
-    Ping: require('./ping.js'),
     Puto: require('./puto.js'),
     Up: require('./up.js'),
     Cague: require('./cague.js'),
