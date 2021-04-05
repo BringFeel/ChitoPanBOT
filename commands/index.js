@@ -36,5 +36,6 @@ module.exports = {
     Dato: require('./dato.js'),
     Bomdia: require('./bomdia.js'),
     Bolamad: require('./bolamad.js'),
-    Whoping: require('./whoping.js')
+    Whoping: require('./whoping.js'),
+    Play: require('./play.js')
 };
