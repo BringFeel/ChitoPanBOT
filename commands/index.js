@@ -36,5 +36,7 @@ module.exports = {
     Bomdia: require('./bomdia.js'),
     Bolamad: require('./bolamad.js'),
     Whoping: require('./whoping.js'),
-    Stats: require('./stats.js')
+    Stats: require('./stats.js'),
+    Mcsrv: require('./mcsrv.js'),
+    Mcsrvapi: require('./mcsrvapi.js')
 };
