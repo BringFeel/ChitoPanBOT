@@ -4,7 +4,7 @@ module.exports = {
     name: 'help4',
     description: 'Lista de los comandos disponibles.',
     execute(msg, args) {
-        const commands = ["buendia", "jueves", "dato", "bomdia", "whoping"];
+        const commands = ["buendia", "jueves", "dato", "bomdia", "whoping", "mcsrv", "mcsrvapi", "servidores"];
         const embed = new Discord.MessageEmbed()
         .setTitle('Comandos | 4/4')
         .setColor('#26FF82')
