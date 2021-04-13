@@ -23,7 +23,14 @@ console.log(d.toLocaleDateString());
 
 client.on("ready", () => {
   console.log(`Ya estoy on pa´ en el ${client.user.tag}!`);
-  client.user.setActivity("+help -- Light + Fran = ❤", { type: "PLAYING" })
+  bot.user.setPresence({
+    status: 'dnd',
+    activity: {
+        name: '+help -- Light + Fran = ❤',
+        type: 'PLAYING',
+        url: 'https://www.twitch.tv/fran__cm'
+    }
+  })
   client.guilds.cache.each(guild => console.info(`Presente en el servidor "${guild.name}"`));
 });
 
