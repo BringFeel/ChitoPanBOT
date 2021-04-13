@@ -32,8 +32,8 @@ module.exports = {
                 .setThumbnail(`https://api.mcsrvstat.us/icon/${searchTerm}`)
                 if (status.hasOwnProperty("players")) {
                     embed.addField('Players:', 'Online: ' + status["players"]["online"] + '\nMax: ' + status["players"]["max"]);
-                    if (status.hasOwnProperty("versión") && status["version"] !== "") {
-                        embed.addField('Version:', status["version"]);
+                    if (status.hasOwnProperty("version") && status["version"] !== "") {
+                        embed.addField('Versión:', status["version"]);
                     }
                     embed.setImage(`https://mcapi.us/server/image?ip=${searchTerm}&theme=dark`)
                 }
