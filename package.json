@@ -11,9 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "canvas": "^2.6.1",
-    "discord-anti-spam": "^2.4.1",
-    "discord-bot-express": "^1.1.0",
     "discord-rich-presence": "0.0.8",
     "discord.js": "^12.5.1",
     "discord.js-avatar": "^1.0.0",
@@ -23,6 +20,7 @@
     "dotenv": "8.2.0",
     "os-utils": "0.0.14",
     "python": "0.0.4",
-    "systeminformation": "^4.34.7"
+    "systeminformation": "^4.34.7",
+    "xmlhttprequest": "^1.8.0"
   }
 }
