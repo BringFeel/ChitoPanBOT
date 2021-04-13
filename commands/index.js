@@ -38,5 +38,6 @@ module.exports = {
     Whoping: require('./whoping.js'),
     Stats: require('./stats.js'),
     Mcsrv: require('./mcsrv.js'),
-    Mcsrvapi: require('./mcsrvapi.js')
+    Mcsrvapi: require('./mcsrvapi.js'),
+    Discords: require('./discords.js')
 };
