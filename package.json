@@ -23,7 +23,6 @@
     "dotenv": "8.2.0",
     "os-utils": "0.0.14",
     "python": "0.0.4",
-    "systeminformation": "^4.34.7",
-    "xmlhttprequest": "^1.8.0"
+    "systeminformation": "^4.34.7"
   }
 }
