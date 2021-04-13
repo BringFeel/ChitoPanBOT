@@ -1,5 +1,5 @@
 {
-  "name": "Fran-BOT",
+  "name": "ChitoPanBOT",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -23,7 +23,6 @@
     "dotenv": "8.2.0",
     "os-utils": "0.0.14",
     "python": "0.0.4",
-    "pango": "^0.0.3",
     "systeminformation": "^4.34.7",
     "xmlhttprequest": "^1.8.0"
   }
