@@ -14,7 +14,7 @@ module.exports = {
         let seconds = Math.floor(totalSeconds % 60);
         let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#FF0202').setTitle(`Estadisticas`)
+        embed.setColor('#26FF82').setTitle(`Estadisticas`)
         .addField(`:desktop: Sistema Operativo`, `${os.platform()}`, true)
         .addField(`:gear: Arquitectura`, `${os.arch()}`, true)
         .addField(`:rocket:  CPU`, `${os.cpus().map(i => `${i.model}`)[0]}`, true)
