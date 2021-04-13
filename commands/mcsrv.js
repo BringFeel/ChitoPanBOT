@@ -25,7 +25,7 @@ module.exports = {
             const response_parse = JSON.parse(responsetext);
             const status = response_parse;
             const embed = new Discord.MessageEmbed();
-            embed.setColor('#2636FF');
+            embed.setColor('#26FF82');
             if (status["online"]) {
                 embed.setTitle(`${searchTerm}`)
                 .setURL(`https://mcapi.us/server/status?ip=${searchTerm}`)
@@ -53,7 +53,7 @@ module.exports = {
             grab_data();
         } else {
             const embed = new Discord.MessageEmbed();
-            embed.setColor('#2636FF').setTitle('Ingresa la ip de un servidor para poder usar el comando').setTimestamp();
+            embed.setColor('#26FF82').setTitle('Ingresa la ip de un servidor para poder usar el comando').setTimestamp();
             msg.channel.send(embed);
         }
     }
