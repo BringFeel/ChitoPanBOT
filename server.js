@@ -33,6 +33,26 @@ client.on("ready", () => {
   })
   client.guilds.cache.each(guild => console.info(`Presente en el servidor "${guild.name}"`));
 });
+client.on("message", message => {
+              
+  if (message.channel.type === "dm") {
+
+const channelId = '831676014718353419';
+const channel = client.channels.cache.get(channelId);
+
+
+const upembed = new Discord.MessageEmbed()
+  .setTimestamp()
+  .setTitle("Mensaje directo")
+  .addField("Enviado por:", `<@${message.author.id}>`)
+  .setColor("RANDOM")
+  .addField("Mensaje: ", message.content)
+  .setFooter("Mensaje al MD");
+
+
+channel.send(upembed)
+}
+});
 
 client.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
 
