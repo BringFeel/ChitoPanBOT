@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 os = require('os');
 
 module.exports = {
-    name: 'discords',
-    description: 'Discords en los que está chitopanbot',
+    name: 'servidores',
+    description: 'Total de servidores de discord en los que está chitopanbot',
     execute(msg, args) {
       const embed = new Discord.MessageEmbed();
         embed.setColor('#26FF82').setTitle(`Actualmente estoy en`)
