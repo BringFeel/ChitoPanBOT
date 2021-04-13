@@ -9,7 +9,7 @@ module.exports = {
             number = 325619;
         }
         const embed = new Discord.MessageEmbed();
-        embed.setColor('#9C4E97').setTitle(`Bisexual`)
+        embed.setColor('#26FF82').setTitle(`Bisexual`)
             .addField(msg.author.username, `${number}%`, true);
         msg.channel.send(embed);
     }
