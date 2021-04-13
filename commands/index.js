@@ -39,5 +39,5 @@ module.exports = {
     Stats: require('./stats.js'),
     Mcsrv: require('./mcsrv.js'),
     Mcsrvapi: require('./mcsrvapi.js'),
-    Servidores: require('./servidores.js')
+    ServidoresDS: require('./servidores.js')
 };
