@@ -11,7 +11,7 @@ module.exports = {
         .addField("___***Permisos:***___", "READ_MESSAGES" + "\nSEND_MESSAGES" + "\nSEND_TTS_MESSAGES" + "\nMANAGE_MESSAGES" + "EMBED_LINKS" + "\nATTACH_FILES" + "\nREAD_msg_HISTORY", true)
         .addField("___***Permisos:***___", "MENTION_EVERYONE" + "\nEXTERNAL_EMOJIS" + "\nCONNECT" + "\nSPEAK" + "\nMUTE_MEMBERS" + "\nDEAFEN_MEMBERS" + "\nMOVE_MEMBERS", true)
         .addField("___***Permisos:***___", "USE_VAD" + "\nCHANGE_NICKNAME" + "\nMANAGE_NICKNAMES" + "\nMANAGE_ROLES_OR_PERMISSIONS" + "\nMANAGE_WEBHOOKS" + "\nMANAGE_EMOJIS", true)
-        .setColor('#2636FF')
+        .setColor('#26FF82')
         embed.setFooter('ChitoPanBOT#4390');
         embed.setTimestamp();
     msg.channel.send(embed);
