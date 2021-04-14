@@ -6,7 +6,7 @@ module.exports = {
     execute(msg, args) {
         const embed = new Discord.MessageEmbed()
         .setTitle('Quiero una puta')
-        .setColor('#2636FF')
+        .setColor('#26FF82')
         embed.setFooter('ChitoPanBOT#4390');
         embed.setTimestamp();
         msg.author.send(embed);
