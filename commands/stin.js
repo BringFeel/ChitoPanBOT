@@ -9,8 +9,6 @@ module.exports = {
         .setColor('#26FF82')
         embed.setFooter('ChitoPanBOT#4390');
         embed.setTimestamp();
-        msg.author.send(embed);
-    if(msg.author.bot) return;
-    msg.channel.send(`${msg.author.toString()} Fijate tu md para ver los comandos!`)
+        msg.channel.send(embed);
     }
 };
