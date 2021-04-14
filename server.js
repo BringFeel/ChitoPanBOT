@@ -55,6 +55,19 @@ channel.send(upembed)
 }
 });
 
+client.on("ready", async () => {
+const channelId = '831673670338347031';
+  const channel = client.channels.cache.get(channelId);
+  const upembed = new Discord.MessageEmbed()
+  .setTitle("Bot online...")
+  .setColor('RANDOM')
+  .setDescription("Me acaban de Prender/Reiniciar")
+  .setFooter(`Ahora mismo estoy en ${client.guilds.cache.size} Servers!`)
+  .setThumbnail('https://cdn.discordapp.com/attachments/831975734070476861/831975761229119519/2705.png')
+  .setTimestamp()
+  channel.send(upembed)
+})
+
 client.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
 
 client.on("message", (msg) => {
