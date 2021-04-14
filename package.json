@@ -13,6 +13,7 @@
   "dependencies": {
     "discord-rich-presence": "0.0.8",
     "discord.js": "^12.5.1",
+    "cheerio": "^1.0.0-rc.6",
     "common-tags": "^1.8.0",
     "request": "^2.88.2",
     "discord.js-avatar": "^1.0.0",
