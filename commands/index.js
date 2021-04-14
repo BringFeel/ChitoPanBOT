@@ -7,9 +7,6 @@ module.exports = {
     Furry: require('./furry.js'),
     Gay: require('./gay.js'),
     Help: require('./help.js'),
-    Help2: require('./help2.js'),
-    Help3: require('./help3.js'),
-    Help4: require('./help4.js'),
     Invite: require('./invite.js'),
     Otaku: require('./otaku.js'),
     Puto: require('./puto.js'),
@@ -39,5 +36,9 @@ module.exports = {
     Stats: require('./stats.js'),
     Mcsrv: require('./mcsrv.js'),
     Mcsrvapi: require('./mcsrvapi.js'),
-    ServidoresDS: require('./servidores.js')
+    ServidoresDS: require('./servidores.js'),
+    Rol: require('./roles.js'),
+    Csgo: require('./statscs.js'),
+    Stin: require('./stin.js'),
+    Rolinfo: require('./rolinfo.js')
 };
