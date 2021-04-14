@@ -24,7 +24,7 @@ module.exports = {
     var UR_L = "https://tracker.gg/csgo/profile/steam/" + args[0] + "/overview";
 
     if(!args[0]){
-        return msg.channel.send("<:x:831731724420775987> | Ingrese un STEAMID64 válido");
+        return msg.channel.send("<:x:831731724420775987> | Ingrese un **STEAMID64** válido o ve a https://steamid.io/ para conseguirlo");
     }
 
     request(UR_L, function(err, resp, body){
