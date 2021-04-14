@@ -46,7 +46,7 @@ const upembed = new Discord.MessageEmbed()
   .setTitle("Mensaje directo")
   .addField("Enviado por:", `<@${message.author.id}>`)
   .setColor("RANDOM")
-  .addField("Mensaje: ", message.content)
+  .setDescription(`**Mensaje:** \n${message.content}`)
   .setFooter("Mensaje al MD");
 
 
