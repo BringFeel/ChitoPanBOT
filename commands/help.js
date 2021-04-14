@@ -16,7 +16,7 @@ module.exports = {
         .addField("___***CounterStrike:***___", "**+cs**" + "\nInfo del servidor para Counter Strike 1.6" + "\n**+csgo**" + "\nInfo sobre tu cuenta de csgo", true)
         .addField("___***Usuario:***___", "**+avatar**" + "\nMuestra el avatar del usuario mencionado", true)
         .addField("___***Random:***___", "**+bi**" + "\nPorcentaje aleatorio de bisexual" + "\n**+furry**" + "\nPorcentaje aleatorio de furry" + "\n**+gay**" + "\nPorcentaje aleatorio de gay"  + "\n**+otaku**" + "\nPorcentaje aleatorio de otaku", true)
-        .setColor('#2636FF')
+        .setColor('#26FF82')
         embed.setFooter('Owner: Fran...#1904 • Gracias por usar ChitoPanBOT');
         embed.setTimestamp();
         msg.author.send(embed);
