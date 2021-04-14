@@ -40,5 +40,6 @@ module.exports = {
     Rol: require('./roles.js'),
     Csgo: require('./statscs.js'),
     Stin: require('./stin.js'),
-    Rolinfo: require('./rolinfo.js')
+    Rolinfo: require('./rolinfo.js'),
+    Blp: require('./blp.js')
 };
