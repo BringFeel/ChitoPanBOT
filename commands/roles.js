@@ -49,7 +49,7 @@ const allPerm = [
             let embed = new Discord.MessageEmbed();
             var serverIcon = msg.guild.iconURL();
             embed.setAuthor(`${msg.guild.name} ― editando rol **${targetRole.name}**`, msg.guild.iconURL);
-            embed.setColor('#2636FF').setThumbnail(serverIcon)
+            embed.setColor('#26FF82').setThumbnail(serverIcon)
             let arrayPerm = newRolePerm.permissions.toArray();
             allPerm.forEach(perm => {
                 let fieldvalue = arrayPerm.includes(perm) ? ':white_check_mark:' : ':x:';
