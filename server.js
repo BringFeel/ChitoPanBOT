@@ -78,6 +78,21 @@ client.on("message", (msg) => {
 
   try {
     console.info(`${msg.author.tag} issued command "${msg.content}" on guild "${msg.guild.name}"`);
+    const channelId = '831983234098135101';
+    const channel = client.channels.cache.get(channelId);
+
+
+    const upembed = new Discord.MessageEmbed()
+    .setTimestamp()
+    .setTitle("Comandos...")
+    .addField("Ejecutado por:", `<@${msg.author.id}>`)
+    .addField("En el servidor:", `${msg.guild.name}`)
+    .setColor("RANDOM")
+    .setDescription(`**Comando:** \n${msg.content}`)
+    .setFooter("Comando Ejecutado");
+
+
+    channel.send(upembed)
     client.commands.get(command).execute(msg, args);
   } catch (error) {
     console.error(error);
