@@ -36,6 +36,7 @@ client.on("ready", () => {
 client.on("message", message => {
               
   if (message.channel.type === "dm") {
+    if(message.author.bot) return;
 
 const channelId = '831676014718353419';
 const channel = client.channels.cache.get(channelId);
