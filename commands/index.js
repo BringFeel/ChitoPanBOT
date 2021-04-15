@@ -41,5 +41,6 @@ module.exports = {
     Csgo: require('./statscs.js'),
     Stin: require('./stin.js'),
     Rolinfo: require('./rolinfo.js'),
-    Blp: require('./blp.js')
+    Blp: require('./blp.js'),
+    Abrazo: require('./abrazo.js')
 };
