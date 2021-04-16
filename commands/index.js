@@ -42,5 +42,6 @@ module.exports = {
     Stin: require('./stin.js'),
     Rolinfo: require('./rolinfo.js'),
     Blp: require('./blp.js'),
-    Abrazo: require('./abrazo.js')
+    Abrazo: require('./abrazo.js'),
+    Beso: require('./beso.js')
 };
