@@ -43,5 +43,6 @@ module.exports = {
     Rolinfo: require('./rolinfo.js'),
     Blp: require('./blp.js'),
     Abrazo: require('./abrazo.js'),
-    Beso: require('./beso.js')
+    Beso: require('./beso.js'),
+    Ping: require('./ping.js')
 };
