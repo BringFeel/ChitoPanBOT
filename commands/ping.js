@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 module.exports = {
     name: 'ping',
     description: 'Ping del bot y la api, tiempo online',
