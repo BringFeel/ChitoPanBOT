@@ -44,5 +44,8 @@ module.exports = {
     Blp: require('./blp.js'),
     Abrazo: require('./abrazo.js'),
     Beso: require('./beso.js'),
-    Ping: require('./ping.js')
+    Ping: require('./ping.js'),
+    Caricia: require('./caricia.js'),
+    Lamida: require('./lamida.js'),
+    Sopapo: require('./sopapo.js')
 };
