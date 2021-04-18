@@ -17,7 +17,7 @@ module.exports = {
         .addField("___***Usuario:***___", "**+avatar**" + "\nMuestra el avatar del usuario mencionado" + "**+abrazo**" + "\nDale un abrazo a alguien :3" + "**+beso**" + "\nDale un beso a alguien UwU", true)
         .addField("___***Random:***___", "**+bi**" + "\nPorcentaje aleatorio de bisexual" + "\n**+furry**" + "\nPorcentaje aleatorio de furry" + "\n**+gay**" + "\nPorcentaje aleatorio de gay"  + "\n**+otaku**" + "\nPorcentaje aleatorio de otaku", true)
         .setColor('#26FF82')
-        embed.setFooter('Owner: Fran...#1904 • Gracias por usar ChitoPanBOT');
+        embed.setFooter('Owner: Fran...#1904 • Gracias por usar ChitoPanBOT', 'https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg');
         embed.setTimestamp();
         msg.author.send(embed);
     if(msg.author.bot) return;
