@@ -14,7 +14,7 @@ module.exports = {
     .setTitle(aA.tag+' está lamiendo el cuerpo de '+aB.tag)
     .setImage(star.lick())
     aC.setFooter("ChitoPanBOT#4390", 'https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg').setTimestamp();
-    aC.setColor('#2636FF')
+    aC.setColor('#26FF82')
 	msg.channel.send(aC);
     }
 }
