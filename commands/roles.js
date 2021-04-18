@@ -55,7 +55,7 @@ const allPerm = [
                 let fieldvalue = arrayPerm.includes(perm) ? ':white_check_mark:' : ':x:';
                 embed.addField(perm, fieldvalue, true);
             });
-            embed.setFooter('ChitoPanBOT#4390 • +rolinfo para ver los permisos');
+            embed.setFooter('ChitoPanBOT#4390 • +rolinfo para ver los permisos', "https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg");
             embed.setTimestamp();
             msg.channel.send(embed);
         })
