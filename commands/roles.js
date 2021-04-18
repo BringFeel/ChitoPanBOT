@@ -39,7 +39,7 @@ const allPerm = [
     if (!msg.member.hasPermission(['MANAGE_ROLES'])) return msg.channel.send('¡No tienes permiso para ejecutar este comando!');
     if (!targetRole.editable) return msg.reply('No puedo editar este rol');
     if (!targetRole) return msg.channel.send(`**${args[0]}** no es un rol válido, ¿lo escribiste correctamente?`);
-    if (!allPerm.includes(targetPermission)) return msg.channel.send(`Permiso no válido, utilice 1 de :\n ${allPerm.join('\n')}`);
+    if (!allPerm.includes(targetPermission)) return msg.channel.send(`Permiso no válido`);
     const currectPermmission = new Discord.Permissions(targetRole.permissions);
     let newTargetRolePermissions = currectPermmission.has(targetPermission) ? currectPermmission.remove(targetPermission) : currectPermmission.add(targetPermission);
     console.log(newTargetRolePermissions.toArray());
