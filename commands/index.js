@@ -47,5 +47,6 @@ module.exports = {
     Ping: require('./ping.js'),
     Caricia: require('./caricia.js'),
     Lamida: require('./lamida.js'),
-    Sopapo: require('./sopapo.js')
+    Sopapo: require('./sopapo.js'),
+    Santi: require('./santi.js')
 };
