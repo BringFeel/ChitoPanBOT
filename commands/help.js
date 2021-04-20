@@ -10,6 +10,7 @@ module.exports = {
         .addField("___***Meming:***___", "**+cague**" + "\nDeiGamer says cagué" + "\n**+callao**" + "\nCallao lacra" + "\n**+calmese**" + "\nCalmese boludo" + "\n**+clown**" + "\nTomá tu identificación" + "\n**+dato**" + "\nQue buen dato man" + "\n**+eta**" + "\nEta pooo" + "\n**+eu**" + "\nEu", true)
         .addField("___***Meming:***___", "**+ey**" + "\nEyeyeyey my boy" + "\n**+jueves**" + "\nFeliz jueves"  + "\n**+messirve**" + "\nMessirve 😎"  + "\n**+nomessirve**" + "\nNomessirve 😥"  + "\n**+poc**" + "\nPoc?"  + "\n**+puto**" + "\n..."  + "\n**+siri**" + "\n._.", true)
         .addField("___***Meming:***___", "**+up?**" + "\nBot up?" + "\n**+vinonico**" + "\nUy" + "\n**+wachin**" + "\nXD?"  + "\n**+whoping**" + "\nQuien pingueo?" + "\n**+xxx**" + "\nApa" + "\n**+stin**" + "\n.___." + "\n**+blp**" + "\nBolam la paloma" + "\n**+santi**" + "\nFoa", true)
+        .addField("___***Meming:***___", "**+turbo**" + "\nEpaa", true)
         .addField("___***Info:***___", "**+invite**" + "\nInvitación del bot" + "\n**+servidores**" + "\nServidores en total que tiene ChitoPanBOT"  + "\n**+stats**" + "\nInfo general de ChitoPanBOT" + "\n**+ping**" + "\nPing del bot", true)
         .addField("___***Admin:***___", "**+rol**" + "\nCambia los permisos de un rol" + "\n**+rolinfo**" + "\nPermisos disponibles para cambiar", true)
         .addField("___***Minecraft:***___", "**+mcsrv**" + "\nPing a un servidor de minecraft" + "\n**+mcsrvapi**" + "\nAPIs usadas para +mcsrv", true)
