@@ -5,7 +5,7 @@ module.exports = {
     description: 'foa',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed()
-        .setTitle('loko ke pro')
+        .setTitle('ä')
         .setColor('#26FF82')
         embed.setFooter('ChitoPanBOT#4390');
         embed.setTimestamp();
