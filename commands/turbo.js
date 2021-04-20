@@ -1,3 +1,4 @@
+module.exports = {
     name: 'turbo',
     description: 'Epaa',
     execute(msg, args) {
