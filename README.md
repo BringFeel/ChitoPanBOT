@@ -1,2 +1,2 @@
-# FranBOT
-No se como pingo llegaste acá pero estás viendo a franbot rey
+# ChitoPanBOT
+No se como pingo llegaste acá pero estás viendo a chitopanbot rey
