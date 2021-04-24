@@ -49,5 +49,6 @@ module.exports = {
     Lamida: require('./lamida.js'),
     Sopapo: require('./sopapo.js'),
     Santi: require('./santi.js'),
-    Turbo: require('./turbo.js')
+    Turbo: require('./turbo.js'),
+    Trapo: require('./trapo.js')
 };
