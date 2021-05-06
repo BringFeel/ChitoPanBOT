@@ -51,5 +51,7 @@ module.exports = {
     Santi: require('./santi.js'),
     Turbo: require('./turbo.js'),
     Trapo: require('./trapo.js'),
-    Sus: require('./sus.js')
+    Sus: require('./sus.js'),
+    Serverinfo: require('./serverinfo.js'),
+    Miembros: require('./miembros.js')
 };
