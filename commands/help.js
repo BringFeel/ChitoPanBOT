@@ -16,6 +16,7 @@ module.exports = {
         .addField("___***Minecraft:***___", "**+mcsrv**" + "\nPing a un servidor de minecraft" + "\n**+mcsrvapi**" + "\nAPIs usadas para +mcsrv", true)
         .addField("___***CounterStrike:***___", "**+cs**" + "\nInfo del servidor para Counter Strike 1.6" + "\n**+csgo**" + "\nInfo sobre tu cuenta de csgo", true)
         .addField("___***Usuario:***___", "**+avatar**" + "\nMuestra el avatar del usuario mencionado" + "**\n+abrazo**" + "\nDale un abrazo a alguien :3" + "**\n+beso**" + "\nDale un beso a alguien UwU" + "**\n+caricia**" + "\nDale una caricia a alguien :3" + "**\n+lamida**" + "\nLame el cuerpo de alguien OwO" + "**\n+sopapo**" + "\nEncajale un sopapo a alguien", true)
+        .addField("___***Server:***___", "**+serverinfo**" + "\nInfo del servidor" + "\n**+miembros**" + "\nMiembros totales en el servidor", true)
         .addField("___***Random:***___", "**+bi**" + "\nPorcentaje aleatorio de bisexual" + "\n**+furry**" + "\nPorcentaje aleatorio de furry" + "\n**+gay**" + "\nPorcentaje aleatorio de gay"  + "\n**+otaku**" + "\nPorcentaje aleatorio de otaku" + "\n**+trapo**" + "\nPorcentaje aleatorio de trapito", true)
         .setColor('#26FF82')
         embed.setFooter('Owner: Fran...#1904 • Gracias por usar ChitoPanBOT', 'https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg');
