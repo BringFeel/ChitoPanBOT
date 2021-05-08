@@ -53,5 +53,6 @@ module.exports = {
     Trapo: require('./trapo.js'),
     Sus: require('./sus.js'),
     Serverinfo: require('./serverinfo.js'),
-    Miembros: require('./miembros.js')
+    Miembros: require('./miembros.js'),
+    Sazked: require('./sazked.js')
 };
