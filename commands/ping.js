@@ -6,6 +6,7 @@ module.exports = {
     execute(msg, args) {
         const embed = new Discord.MessageEmbed();
         embed.setColor('#26FF82')
+        embed.setTitle('Bot 1#')
         .addField(`🏓**Ping Bot:**`, `${Date.now() - msg.createdTimestamp}ms`, true)
         .addField(`🌐**Ping API:**`, `${Math.round(client.ws.ping)}ms`, true)
         msg.channel.send(embed);
