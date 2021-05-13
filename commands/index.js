@@ -20,5 +20,5 @@ module.exports = {
     Sopapo: require('./sopapo.js'),
     Serverinfo: require('./serverinfo.js'),
     Miembros: require('./miembros.js'),
-    Ban require('./ban.js')
+    Ban: require('./ban.js')
 };
