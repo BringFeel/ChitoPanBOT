@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 module.exports = {
-    name: 'helpcpb',
+    name: 'help',
     description: 'Lista de los comandos disponibles.',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed()
