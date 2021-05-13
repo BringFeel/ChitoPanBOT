@@ -19,5 +19,6 @@ module.exports = {
     Lamida: require('./lamida.js'),
     Sopapo: require('./sopapo.js'),
     Serverinfo: require('./serverinfo.js'),
-    Miembros: require('./miembros.js')
+    Miembros: require('./miembros.js'),
+    Ban require('./ban.js')
 };
