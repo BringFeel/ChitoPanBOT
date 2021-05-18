@@ -7,7 +7,7 @@ module.exports = {
     execute(msg, args) {
       const embed = new Discord.MessageEmbed();
         embed.setColor('#26FF82').setTitle(`Actualmente estoy en`)
-        .addField(`${client.guilds.cache.size}`, `servidores`, true)
+        .addField(`Servidores: ``${client.guilds.cache.size}```, `\nUsuarios: ``${client.users.cache.size}```, true)
         embed.setFooter("ChitoPanBOT#4390", 'https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg')
       msg.channel.send(embed);
     }
