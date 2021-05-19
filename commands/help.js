@@ -5,7 +5,7 @@ module.exports = {
     description: 'Lista de los comandos disponibles.',
     execute(msg, args) {
         const embed = new Discord.MessageEmbed()
-        .setAuthor('ChitoPanBot - Comandos', 'https://cdn.discordapp.com/attachments/795478872597594164/831749395309527040/homero_says_a.png', 'https://discord.gg/CzkSjzZ')
+        .setAuthor('ChitoPanBot - Comandos', 'https://media.discordapp.net/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg', 'https://discord.gg/CzkSjzZ')
         .addField("**🎵 Musica:**", "`+clear-queue` `+filter` `+loop` `+nowplaying` `+pause` `+play` `+queue` `+resume` `+search` `+shuffle` `+skip` `+stop` `+volume` `+w-filters`", true)
         .addField("**🎚Filtros:**", "`8d` `gate` `haas` `phaser` `treble` `tremolo` `vibrato` `reverse` `karaoke` `flanger` `mcompand` `pulsator` `subboost` `bassboost` `vaporwave` `nightcore` `normalizer` `surrounding`", true)
         .addField("**🛡Moderación:**", "`+ban` ```Soon: +unban +kick +mute +unmute```", true)
