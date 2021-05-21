@@ -22,5 +22,6 @@ module.exports = {
     Miembros: require('./miembros.js'),
     Ban: require('./ban.js'),
     Otaku: require('./otaku.js'),
-    Trapo: require('./trapo.js')
+    Trapo: require('./trapo.js'),
+    Support: require('./bot/support.js')
 };
