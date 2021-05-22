@@ -8,9 +8,15 @@ module.exports = {
         if(!msg.member.hasPermission("BAN_MEMBERS")) return msg.channel.send('No tienes permisos para usar este comando.')
         if(!msg.guild.me.hasPermission("BAN_MEMBERS")) return msg.channel.send('No tengo los permisos suficientes para este comando.')
 
-        const member = msg.mentions.members.first() || msg.guild.members.cache.get(args[0]);
-
         if(!args[0]) return msg.channel.send('Por favor especifica un usuario');
+
+        let member;
+        
+        if (msg.mentions.members.length) {
+            member = msg.mentions.members.first();
+        } else {
+            member = msg.guild.members.cache.get(args[0]);
+        }
 
         if(!member) return msg.channel.send('Parece que no puedo encontrar a este usuario.');
         if(!member.bannable) return msg.channel.send('Este usuario no puede ser baneado, su rol más alto es más alto que el mío.');
