@@ -21,7 +21,7 @@ module.exports = {
     .addField('**BOOSTER**',msg.guild.premiumSubscriptionCount.toString())
     .addField('**NIVEL DE VERIFICACIÓN**',`${server.verificationLevel}`)
     .addField('**ROLES**', server.roles.cache.size,true)
-    embed.setFooter(`ChitoPanBOT#4390 • Server ID: ${server.id}`, 'https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg')
+    embed.setFooter(`ChitoPanBOT#4390 • Server ID: ${server.id}`, 'https://cdn.discordapp.com/attachments/831975734070476861/850154574596800592/cpbpfp.jpg')
     .setTimestamp()
     .setColor("#26FF82")
     msg.channel.send(embed);
