@@ -12,7 +12,7 @@ module.exports = {
         .addField("___***Permisos:***___", "MENTION_EVERYONE" + "\nEXTERNAL_EMOJIS" + "\nCONNECT" + "\nSPEAK" + "\nMUTE_MEMBERS" + "\nDEAFEN_MEMBERS" + "\nMOVE_MEMBERS", true)
         .addField("___***Permisos:***___", "USE_VAD" + "\nCHANGE_NICKNAME" + "\nMANAGE_NICKNAMES" + "\nMANAGE_ROLES_OR_PERMISSIONS" + "\nMANAGE_WEBHOOKS" + "\nMANAGE_EMOJIS", true)
         .setColor('#26FF82')
-        embed.setFooter('ChitoPanBOT#4390', "https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg");
+        embed.setFooter('ChitoPanBOT#4390', "https://cdn.discordapp.com/attachments/831975734070476861/850154574596800592/cpbpfp.jpg");
         embed.setTimestamp();
     msg.author.send(embed);
     if(msg.author.bot) return;
