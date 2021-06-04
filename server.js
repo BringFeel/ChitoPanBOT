@@ -26,7 +26,7 @@ client.on("ready", () => {
   client.user.setPresence({
     status: 'dnd',
     activity: {
-        name: '+help | +hm',
+        name: '+help | zzzzzzap!',
         type: 'PLAYING',
         url: 'https://www.twitch.tv/fran__cm'
     }
