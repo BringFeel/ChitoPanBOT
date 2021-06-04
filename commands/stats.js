@@ -24,7 +24,7 @@ module.exports = {
         .addField(`🏓Ping Bot`, `${Date.now() - msg.createdTimestamp}ms`, true)
         .addField(`🌐Ping API`, `${Math.round(client.ws.ping)}ms`, true)
         .addField(`⏱Tiempo online`, `${days} día/s , ${hours} hora/s, ${minutes} minuto/s y ${seconds} segúndo/s`, true)
-        embed.setFooter("ChitoPanBOT#4390", 'https://cdn.discordapp.com/attachments/795478872597594164/833157862825787412/91ed566974e33b4bd8d7506861b3d5de.jpg').setTimestamp();
+        embed.setFooter("ChitoPanBOT#4390", 'https://cdn.discordapp.com/attachments/831975734070476861/850154574596800592/cpbpfp.jpg').setTimestamp();
         msg.channel.send(embed);
     }
 };
