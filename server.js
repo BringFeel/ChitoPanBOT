@@ -85,7 +85,6 @@ client.on("guildCreate", guild => {
 
 
     channel.send(upembed)
-}
 });
 
 client.on("guildDelete", guild => {
@@ -105,7 +104,6 @@ client.on("guildDelete", guild => {
 
 
     channel.send(upembed)
-}
 });
 
 client.on("message", (msg) => {
