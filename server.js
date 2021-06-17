@@ -38,7 +38,7 @@ client.on("message", message => {
   if (message.channel.type === "dm") {
     if(message.author.bot) return;
 
-const channelId = '831676014718353419';
+const channelId = '855204457352658944';
 const channel = client.channels.cache.get(channelId);
 
 
@@ -56,7 +56,7 @@ channel.send(upembed)
 });
 
 client.on("ready", async () => {
-const channelId = '831673670338347031';
+const channelId = '855204457352658944';
   const channel = client.channels.cache.get(channelId);
   const upembed = new Discord.MessageEmbed()
   .setTitle("Bot online...")
@@ -68,7 +68,46 @@ const channelId = '831673670338347031';
   channel.send(upembed)
 })
 
-client.on('guildCreate', guild => console.info(`Entré a "${guild.name}"`));
+client.on("guildCreate", guild => {
+  console.log(`Entré a un nuevo servidor: ${guild.name} (id: ${guild.id}). Este servidor tiene ${guild.memberCount} miembros!`);
+  const channelId = '855204457352658944';
+    const channel = client.channels.cache.get(channelId);
+
+
+    const upembed = new Discord.MessageEmbed()
+    .setTimestamp()
+    .setTitle("Nuevo servidor...")
+    .addField("Nombre:", `${guild.name}`)
+    .addField("ID:", `${guild.id}`)
+    .addField("Miembros:", `${guild.memberCount}`)
+    .setColor("RANDOM")
+    .setDescription(`**Comando:** \n${msg.content}`)
+    .setFooter("Bot agregado a un nuevo servidor");
+
+
+    channel.send(upembed)
+}
+});
+
+client.on("guildDelete", guild => {
+  console.log(`Me rajaron de: ${guild.name} (id: ${guild.id})`);
+  const channelId = '855204457352658944';
+    const channel = client.channels.cache.get(channelId);
+
+
+    const upembed = new Discord.MessageEmbed()
+    .setTimestamp()
+    .setTitle("Bot kickeado...")
+    .addField("Nombre:", `${guild.name}`)
+    .addField("ID:", `${guild.id}`)
+    .setColor("RANDOM")
+    .setDescription(`**Comando:** \n${msg.content}`)
+    .setFooter("Me rajaron de un servidor");
+
+
+    channel.send(upembed)
+}
+});
 
 client.on("message", (msg) => {
   let args = msg.content.split(/ +/);
@@ -78,7 +117,7 @@ client.on("message", (msg) => {
 
   try {
     console.info(`${msg.author.tag} issued command "${msg.content}" on guild "${msg.guild.name}"`);
-    const channelId = '831983234098135101';
+    const channelId = '855204457352658944';
     const channel = client.channels.cache.get(channelId);
 
 
