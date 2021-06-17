@@ -81,7 +81,6 @@ client.on("guildCreate", guild => {
     .addField("ID:", `${guild.id}`)
     .addField("Miembros:", `${guild.memberCount}`)
     .setColor("RANDOM")
-    .setDescription(`**Comando:** \n${msg.content}`)
     .setFooter("Bot agregado a un nuevo servidor");
 
 
