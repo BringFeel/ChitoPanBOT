@@ -99,7 +99,6 @@ client.on("guildDelete", guild => {
     .addField("Nombre:", `${guild.name}`)
     .addField("ID:", `${guild.id}`)
     .setColor("RANDOM")
-    .setDescription(`**Comando:** \n${msg.content}`)
     .setFooter("Me rajaron de un servidor");
 
 
