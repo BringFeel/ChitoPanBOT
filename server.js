@@ -81,7 +81,7 @@ client.on("guildCreate", guild => {
     .addField("Nombre:", `${guild.name}`)
     .addField("ID:", `${guild.id}`)
     .addField("Miembros:", `${guild.memberCount}`)
-    .addField("Región", guild.guild.region)
+    .addField("Región", message.guild.region)
     .addField("Dueño del servidor",`${guild.owner.user}`)
     .setColor("RANDOM")
     .setFooter(`Me agregaron a un nuevo servidor | Servidores totales: ${client.guilds.cache.size}`);
