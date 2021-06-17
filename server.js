@@ -76,12 +76,13 @@ client.on("guildCreate", guild => {
 
     const upembed = new Discord.MessageEmbed()
     .setTimestamp()
+    .setThumbnail(guild.iconURL())
     .setTitle("Nuevo servidor...")
     .addField("Nombre:", `${guild.name}`)
     .addField("ID:", `${guild.id}`)
     .addField("Miembros:", `${guild.memberCount}`)
     .setColor("RANDOM")
-    .setFooter("Bot agregado a un nuevo servidor");
+    .setFooter(`Me agregaron a un nuevo servidor | Servidores totales: ${client.guilds.cache.size}`);
 
 
     channel.send(upembed)
@@ -95,11 +96,12 @@ client.on("guildDelete", guild => {
 
     const upembed = new Discord.MessageEmbed()
     .setTimestamp()
-    .setTitle("Bot kickeado...")
-    .addField("Nombre:", `${guild.name}`)
+    .setThumbnail(guild.iconURL())
+    .setTitle("Bot removido...")
+    .addField("Nombre del servidor:", `${guild.name}`)
     .addField("ID:", `${guild.id}`)
     .setColor("RANDOM")
-    .setFooter("Me rajaron de un servidor");
+    .setFooter(`Me rajaron de un servidor | Servidores totales: ${client.guilds.cache.size}`);
 
 
     channel.send(upembed)
