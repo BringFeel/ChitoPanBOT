@@ -38,75 +38,16 @@ client.on("message", message => {
   if (message.channel.type === "dm") {
     if(message.author.bot) return;
 
-const channelId = '855204457352658944';
-const channel = client.channels.cache.get(channelId);
-
-
-const upembed = new Discord.MessageEmbed()
-  .setTimestamp()
-  .setTitle("Mensaje directo")
-  .addField("Enviado por:", `<@${message.author.id}>`)
-  .setColor("RANDOM")
-  .setDescription(`**Mensaje:** \n${message.content}`)
-  .setFooter("Mensaje al MD");
-
-
-channel.send(upembed)
+    console.log(`Mensaje directo enviado por: ${message.author.id}\nMensaje: ${message.content}`);
 }
 });
 
-client.on("ready", async () => {
-const channelId = '855204457352658944';
-  const channel = client.channels.cache.get(channelId);
-  const upembed = new Discord.MessageEmbed()
-  .setTitle("Bot online...")
-  .setColor('RANDOM')
-  .setDescription("Me acaban de Prender/Reiniciar")
-  .setFooter(`Ahora mismo estoy en ${client.guilds.cache.size} Servers!`)
-  .setThumbnail('https://cdn.discordapp.com/attachments/831975734070476861/831975761229119519/2705.png')
-  .setTimestamp()
-  channel.send(upembed)
-})
-
 client.on("guildCreate", guild => {
   console.log(`Entré a un nuevo servidor: ${guild.name} (id: ${guild.id}). Este servidor tiene ${guild.memberCount} miembros!`);
-  const channelId = '855204457352658944';
-    const channel = client.channels.cache.get(channelId);
-
-
-    const upembed = new Discord.MessageEmbed()
-    .setTimestamp()
-    .setThumbnail(guild.iconURL())
-    .setTitle("Nuevo servidor...")
-    .addField("Nombre:", `${guild.name}`)
-    .addField("ID:", `${guild.id}`)
-    .addField("Miembros:", `${guild.memberCount}`)
-    .addField("Región", `${guild.region}`)
-    .addField("Dueño del servidor",`${guild.owner.user}`)
-    .setColor("RANDOM")
-    .setFooter(`Me agregaron a un nuevo servidor | Servidores totales: ${client.guilds.cache.size}`);
-
-
-    channel.send(upembed)
 });
 
 client.on("guildDelete", guild => {
   console.log(`Me rajaron de: ${guild.name} (id: ${guild.id})`);
-  const channelId = '855204457352658944';
-    const channel = client.channels.cache.get(channelId);
-
-
-    const upembed = new Discord.MessageEmbed()
-    .setTimestamp()
-    .setThumbnail(guild.iconURL())
-    .setTitle("Bot removido...")
-    .addField("Nombre del servidor:", `${guild.name}`)
-    .addField("ID:", `${guild.id}`)
-    .setColor("RANDOM")
-    .setFooter(`Me rajaron de un servidor | Servidores totales: ${client.guilds.cache.size}`);
-
-
-    channel.send(upembed)
 });
 
 client.on("message", (msg) => {
@@ -117,21 +58,6 @@ client.on("message", (msg) => {
 
   try {
     console.info(`${msg.author.tag} issued command "${msg.content}" on guild "${msg.guild.name}"`);
-    const channelId = '855204457352658944';
-    const channel = client.channels.cache.get(channelId);
-
-
-    const upembed = new Discord.MessageEmbed()
-    .setTimestamp()
-    .setTitle("Comandos...")
-    .addField("Ejecutado por:", `<@${msg.author.id}>`)
-    .addField("En el servidor:", `${msg.guild.name}`)
-    .setColor("RANDOM")
-    .setDescription(`**Comando:** \n${msg.content}`)
-    .setFooter("Comando Ejecutado");
-
-
-    channel.send(upembed)
     client.commands.get(command).execute(msg, args);
   } catch (error) {
     console.error(error);
