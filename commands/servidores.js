@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-os = require('os');
 
 module.exports = {
     name: 'servidores',
