@@ -3,7 +3,7 @@ const star = require('star-labs');
 
 module.exports = {
     name: 'sopapo',
-    description: 'XD',
+    description: 'sopapo',
     execute(msg, args) {
         let command = 'sopapo';
         if(command === 'sopapo'){
