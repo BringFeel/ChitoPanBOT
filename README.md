@@ -21,7 +21,7 @@ no he tenido tiempo de adaptar el código a un config.json o config.js
 
 
 
-**Librerias y Node.js usado**<p>
+## Librerias y Node.js usado
 [Node JS](https://nodejs.org/en/) (v16)\
 [discord.js](https://www.npmjs.com/package/discord.js) (v12)\
 [request](https://www.npmjs.com/package/request) (v2.88.2) Cuidado! la libreria *request* es actualmente obsoleta\
@@ -32,7 +32,7 @@ no he tenido tiempo de adaptar el código a un config.json o config.js
 [xmlhttprequest](https://www.npmjs.com/package/xmlhttprequest) (^1.8.0)\
 [ainasepics](https://www.npmjs.com/package/ainasepics) (^1.7.5)\
 [discord.js-avatar](discord.js-avatar) (^1.0.0)
-
+##
 Realizado con ❤️ por [BringFeel#8805](https://https://github.com/Fran2985).\
 *Por favor no retire los creditos puestos en el codigo, si lo hace por favor de los respectivos creditos a el creador original del codigo.*<p>
   
