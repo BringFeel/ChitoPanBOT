@@ -4,7 +4,8 @@
 Bienvenido a la versión anterior del código de *ChitoPanBOT*
 
 ```
-La configuración está en todo el código en sí, no he tenido tiempo de adaptar el código a un config.json o config.js
+La configuración está en todo el código en sí
+no he tenido tiempo de adaptar el código a un config.json o config.js
 ```
 
 ## Características
