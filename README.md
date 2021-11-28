@@ -21,8 +21,10 @@ La configuración está en todo el código en sí, no he tenido tiempo de adapta
 Realizado con ❤️ por [BringFeel#8805](https://https://github.com/Fran2985).\
 *Por favor no retire los creditos puestos en el codigo, si lo hace por favor de los respectivos creditos a el creador original del codigo.*<p>
   
-
-  
+ [![Downloads](https://img.shields.io/github/downloads/Fran2985/ChitoPanBOT/total)](https://github.com/Fran2985/FranBOT/releases/latest)
+  [![Stars](https://img.shields.io/github/stars/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/FranBOT/stargazers)
+  [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://cpbs.cobelmotion.com.ar/)
+  [![Release](https://img.shields.io/github/v/release/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/ChitoPanBOT/releases/tag/V1.0.0)</br>
   
 ![miembros-command](https://user-images.githubusercontent.com/69062690/143723673-65003b83-25d2-43db-b6e9-a425cc516b93.png)\
 ![ban-command](https://cdn.discordapp.com/attachments/896110639515303996/914300874472439848/unknown.png)\
