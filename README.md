@@ -1,9 +1,23 @@
+<img align="right" src="https://cdn.discordapp.com/avatars/779841907484262421/12f1797a4e51f310f6019dbc3c272a02.png?size=4096" height="200" width="200">
+
 # ChitoPanBOT V1
 Bienvenido a la versión anterior del código de *ChitoPanBOT*
 
 ```
 La configuración está en todo el código en sí, no he tenido tiempo de adaptar el código a un config.json o config.js
 ```
+
+## Características
+  * Simple de usar
+  * Simple de usar
+  * No se necesitan tokens o keys externas (además de un token de Discord Bot)
+  * Comandos de Rol
+  * Moderación simple (ban)
+  * Embeds
+  * Discord de soporte
+  * Owner disponible para soporte
+  * Codigo simple para ser modificado
+
 
 
 **Librerias y Node.js usado**<p>
