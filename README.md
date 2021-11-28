@@ -17,11 +17,17 @@ no he tenido tiempo de adaptar el código a un config.json o config.js
   * Embeds
   * Discord de soporte
   * Owner disponible para soporte
-  * Codigo simple para ser modificado
+  * Código simple para ser modificado
 
+## Comandos
+Prefix ```+``` (Fácilmente reemplazable en index.js)
 
+🛡**Moderación:**\
+```+ban```\
+🔎**Otros Comandos:**\
+```+help``` ```+invite``` ```+servidores``` ```+stats``` ```+ping``` ```+mcsrv``` ```+mcsrvapi``` ```+csgo``` ```+hm``` ```+avatar``` ```+abrazo``` ```+beso``` ```+caricia``` ```+lamida``` ```+sopapo``` ```+serverinfo``` ```+miembros``` ```+rol``` ```+rolinfo``` ```+bi``` ```+furry``` ```+gay``` ```+otaku``` ```+trapo```
 
-## Librerias y Node.js usado
+## Librerías y Node.js usado
 [Node JS](https://nodejs.org/en/) (v16)\
 [discord.js](https://www.npmjs.com/package/discord.js) (v12)\
 [request](https://www.npmjs.com/package/request) (v2.88.2) Cuidado! la libreria *request* es actualmente obsoleta\
@@ -34,7 +40,7 @@ no he tenido tiempo de adaptar el código a un config.json o config.js
 [discord.js-avatar](discord.js-avatar) (^1.0.0)
 ##
 Realizado con ❤️ por [BringFeel#8805](https://https://github.com/Fran2985).\
-*Por favor no retire los creditos puestos en el codigo, si lo hace por favor de los respectivos creditos a el creador original del codigo.*<p>
+*Por favor no retire los créditos puestos en el código, si lo hace por favor de los respectivos créditos a el creador original del código.*<p>
   
  [![Downloads](https://img.shields.io/github/downloads/Fran2985/ChitoPanBOT/total)](https://github.com/Fran2985/FranBOT/releases/latest)
   [![Stars](https://img.shields.io/github/stars/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/FranBOT/stargazers)
