@@ -19,7 +19,10 @@ La configuración está en todo el código en sí, no he tenido tiempo de adapta
 [discord.js-avatar](discord.js-avatar) (^1.0.0)
 
 Realizado con ❤️ por [BringFeel#8805](https://https://github.com/Fran2985).\
-*Por favor no retire los creditos puestos en el codigo, si lo hace por favor de los respectivos creditos a el creador original del codigo.*
+*Por favor no retire los creditos puestos en el codigo, si lo hace por favor de los respectivos creditos a el creador original del codigo.*<p>
+  
+
+  
   
 ![miembros-command](https://user-images.githubusercontent.com/69062690/143723673-65003b83-25d2-43db-b6e9-a425cc516b93.png)\
 ![ban-command](https://cdn.discordapp.com/attachments/896110639515303996/914300874472439848/unknown.png)\
