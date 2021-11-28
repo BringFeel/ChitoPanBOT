@@ -1,7 +1,10 @@
+![](https://user-images.githubusercontent.com/69062690/143786996-80c9c8b7-b963-474b-bc89-c408432d5ac1.png "ChitoPanLOGO")
+
 <img align="right" src="https://cdn.discordapp.com/avatars/779841907484262421/12f1797a4e51f310f6019dbc3c272a02.png?size=4096" height="200" width="200">
 
 # ChitoPanBOT V1
-Bienvenido a la versión anterior del código de *ChitoPanBOT*
+Bienvenido a la versión anterior del código de *ChitoPanBOT*<p>
+Invita a [ChitoPanBOT](https://github.com/Fran2985/ChitoPanBOT/) a tu servidor de discord: [INVITAR](https://discord.com/oauth2/authorize?client_id=779841907484262421&scope=bot&permissions=0)
 
 ```
 La configuración está en todo el código en sí
@@ -46,6 +49,7 @@ Realizado con ❤️ por [BringFeel#8805](https://https://github.com/Fran2985).\
   [![Stars](https://img.shields.io/github/stars/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/FranBOT/stargazers)
   [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://cpbs.cobelmotion.com.ar/)
   [![Release](https://img.shields.io/github/v/release/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/ChitoPanBOT/releases/tag/V1.0.0)</br>
+  ![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)
   
 ![miembros-command](https://user-images.githubusercontent.com/69062690/143723673-65003b83-25d2-43db-b6e9-a425cc516b93.png)\
 ![ban-command](https://cdn.discordapp.com/attachments/896110639515303996/914300874472439848/unknown.png)\
