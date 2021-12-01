@@ -42,7 +42,7 @@ Prefix ```+``` (Fácilmente reemplazable en index.js)
 [ainasepics](https://www.npmjs.com/package/ainasepics) (^1.7.5)\
 [discord.js-avatar](discord.js-avatar) (^1.0.0)
 ##
-Realizado con ❤️ por [BringFeel#8805](https://https://github.com/Fran2985).\
+Realizado con ❤️ por [BringFeel#8805](https://github.com/Fran2985).\
 *Por favor no retire los créditos puestos en el código, si lo hace por favor de los respectivos créditos a el creador original del código.*<p>
   
  [![Downloads](https://img.shields.io/github/downloads/Fran2985/ChitoPanBOT/total)](https://github.com/Fran2985/FranBOT/releases/latest)
