@@ -14,7 +14,6 @@ no he tenido tiempo de adaptar el código a un config.json o config.js
 ## Características
   * Hecho para su uso rapido en [heroku](https://www.heroku.com)
   * Simple de usar
-  * Simple de usar
   * No se necesitan tokens o keys externas (además de un token de Discord Bot)
   * Comandos de Rol
   * Moderación simple (ban)
