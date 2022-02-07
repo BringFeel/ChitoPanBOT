@@ -1,6 +1,6 @@
 ![](https://user-images.githubusercontent.com/69062690/143786996-80c9c8b7-b963-474b-bc89-c408432d5ac1.png "ChitoPanLOGO")
 
-<img align="right" src="https://cdn.discordapp.com/avatars/779841907484262421/12f1797a4e51f310f6019dbc3c272a02.png?size=4096" height="200" width="200">
+<img align="right" src="https://cdn.discordapp.com/avatars/779841907484262421/c25f032207a321851f2407b4b73a3670.png?size=4096" height="200" width="200">
 
 # ChitoPanBOT V1
 Bienvenido a la versión anterior del código de *ChitoPanBOT*<p>
@@ -42,13 +42,13 @@ Prefix ```+``` (Fácilmente reemplazable en index.js)
 [ainasepics](https://www.npmjs.com/package/ainasepics) (^1.7.5)\
 [discord.js-avatar](discord.js-avatar) (^1.0.0)
 ##
-Realizado con ❤️ por [BringFeel#8805](https://github.com/Fran2985).\
+Realizado con ❤️ por [BringFeel#8805](https://github.com/BringFeel).\
 *Por favor no retire los créditos puestos en el código, si lo hace por favor de los respectivos créditos a el creador original del código.*<p>
   
- [![Downloads](https://img.shields.io/github/downloads/Fran2985/ChitoPanBOT/total)](https://github.com/Fran2985/FranBOT/releases/latest)
-  [![Stars](https://img.shields.io/github/stars/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/FranBOT/stargazers)
-  [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://cpbs.cobelmotion.com.ar/)
-  [![Release](https://img.shields.io/github/v/release/Fran2985/ChitoPanBOT)](https://github.com/Fran2985/ChitoPanBOT/releases/tag/V1.0.0)</br>
+ [![Downloads](https://img.shields.io/github/downloads/BringFeel/ChitoPanBOT/total)](https://github.com/BringFeel/FranBOT/releases/latest)
+  [![Stars](https://img.shields.io/github/stars/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/FranBOT/stargazers)
+  [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://bringfeel.github.io/links/link-los-fisuras-discord)
+  [![Release](https://img.shields.io/github/v/release/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/releases/tag/V1.0.0)</br>
   ![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)
   
 ![miembros-command](https://user-images.githubusercontent.com/69062690/143723673-65003b83-25d2-43db-b6e9-a425cc516b93.png)\
