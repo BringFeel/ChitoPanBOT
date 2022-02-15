@@ -47,7 +47,7 @@ Realizado con ❤️ por [BringFeel#8805](https://github.com/BringFeel).\
   
  [![Downloads](https://img.shields.io/github/downloads/BringFeel/ChitoPanBOT/total)](https://github.com/BringFeel/FranBOT/releases/latest)
   [![Stars](https://img.shields.io/github/stars/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/FranBOT/stargazers)
-  [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://bringfeel.github.io/links/link-los-fisuras-discord)
+  [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://bringfeel.com/links/link-los-fisuras-discord)
   [![Release](https://img.shields.io/github/v/release/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/releases/tag/V1.0.0)</br>
   ![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)
   
