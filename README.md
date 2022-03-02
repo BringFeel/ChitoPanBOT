@@ -4,7 +4,7 @@
 
 # ChitoPanBOT V1
 Bienvenido a la versión anterior del código de *ChitoPanBOT*<p>
-Invita a [ChitoPanBOT](https://github.com/BringFeel/ChitoPanBOT/) a tu servidor de discord: [INVITAR](https://bringfeel.com/links/cpb-github)
+Invita a [ChitoPanBOT](https://github.com/BringFeel/ChitoPanBOT/) a tu servidor de discord: [INVITAR](https://discord.com/oauth2/authorize?client_id=779841907484262421&scope=bot&permissions=0/)
 
 ```
 La configuración está en todo el código en sí
