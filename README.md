@@ -1,10 +1,10 @@
 ![](https://user-images.githubusercontent.com/69062690/143786996-80c9c8b7-b963-474b-bc89-c408432d5ac1.png "ChitoPanLOGO")
 
-<img align="right" src="https://cdn.discordapp.com/avatars/779841907484262421/c25f032207a321851f2407b4b73a3670.png?size=4096" height="200" width="200">
+<img align="right" src="https://cdn.discordapp.com/attachments/831975734070476861/850154574596800592/cpbpfp.jpg" height="200" width="200">
 
 # ChitoPanBOT V1
 Bienvenido a la versión anterior del código de *ChitoPanBOT*<p>
-Invita a [ChitoPanBOT](https://github.com/Fran2985/ChitoPanBOT/) a tu servidor de discord: [INVITAR](https://discord.com/oauth2/authorize?client_id=779841907484262421&scope=bot&permissions=0)
+Invita a [ChitoPanBOT](https://github.com/BringFeel/ChitoPanBOT/) a tu servidor de discord: [INVITAR](https://bringfeel.com/links/cpb-github)
 
 ```
 La configuración está en todo el código en sí
