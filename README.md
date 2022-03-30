@@ -2,7 +2,18 @@
 
 <img align="right" src="https://cdn.discordapp.com/attachments/831975734070476861/850154574596800592/cpbpfp.jpg" height="200" width="200">
 
-# ChitoPanBOT V1
+<div align="center">
+ 
+#
+ 
+[![Downloads](https://img.shields.io/github/downloads/BringFeel/ChitoPanBOT/total)](https://github.com/BringFeel/ChitoPanBOT/releases/latest)
+[![Stars](https://img.shields.io/github/stars/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/stargazers)
+[![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://discord.bringfeel.com/)
+[![Release](https://img.shields.io/github/v/release/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/releases/tag/V1.0.0)</br>
+![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)
+
+  </div>
+  
 Bienvenido a la versión anterior del código de *ChitoPanBOT*<p>
 Invita a [ChitoPanBOT](https://github.com/BringFeel/ChitoPanBOT/) a tu servidor de discord: [INVITAR](https://discord.com/oauth2/authorize?client_id=779841907484262421&scope=bot&permissions=0/)
 
@@ -44,12 +55,6 @@ Prefix ```+``` (Fácilmente reemplazable en index.js)
 ##
 Realizado con ❤️ por [BringFeel#8805](https://github.com/BringFeel).\
 *Por favor no retire los créditos puestos en el código, si lo hace por favor de los respectivos créditos a el creador original del código.*<p>
-  
- [![Downloads](https://img.shields.io/github/downloads/BringFeel/ChitoPanBOT/total)](https://github.com/BringFeel/FranBOT/releases/latest)
-  [![Stars](https://img.shields.io/github/stars/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/FranBOT/stargazers)
-  [![Discord](https://discordapp.com/api/guilds/703772175949234226/widget.png)](https://bringfeel.com/links/link-los-fisuras-discord)
-  [![Release](https://img.shields.io/github/v/release/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/releases/tag/V1.0.0)</br>
-  ![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)
   
 ![miembros-command](https://user-images.githubusercontent.com/69062690/143723673-65003b83-25d2-43db-b6e9-a425cc516b93.png)\
 ![ban-command](https://cdn.discordapp.com/attachments/896110639515303996/914300874472439848/unknown.png)\
