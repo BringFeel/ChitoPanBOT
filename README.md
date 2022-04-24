@@ -10,7 +10,7 @@
 [![Stars](https://img.shields.io/github/stars/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/stargazers)
 [![Discord](https://discordapp.com/api/guilds/952035654831845457/widget.png)](https://discord.bringfeel.com)
 [![Release](https://img.shields.io/github/v/release/BringFeel/ChitoPanBOT)](https://github.com/BringFeel/ChitoPanBOT/releases/tag/V1.0.0)
-![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)(https://top.gg/bot/779841907484262421)</br>
+[![Discord Bots](https://top.gg/api/widget/779841907484262421.svg)](https://top.gg/bot/779841907484262421)</br>
 
   </div>
   
