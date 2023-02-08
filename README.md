@@ -1,6 +1,6 @@
 ![](https://user-images.githubusercontent.com/69062690/143786996-80c9c8b7-b963-474b-bc89-c408432d5ac1.png "ChitoPanLOGO")
 
-<img align="right" src="https://cdn.discordapp.com/attachments/831975734070476861/850154574596800592/cpbpfp.jpg" height="200" width="200">
+<img align="right" src="https://cdn.discordapp.com/attachments/970858828008652862/1061742318799044738/ChitoPanBOT-Logo-2023.png" height="200" width="200">
 
 <div align="center">
  
